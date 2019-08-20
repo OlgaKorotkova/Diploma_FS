@@ -59,8 +59,6 @@ body {
 
 .button {
   background-color: #59314f;
-  margin-left: auto;
-  margin-right: auto;
   border: none;
   text-transform: uppercase;
   text-align: center;
@@ -88,8 +86,8 @@ body {
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
   h1 {
     font-size: 5.729vmax;
-    padding-top: 12%;
-    padding-bottom: 25%;
+    padding-top: 7vmax;
+    padding-bottom: 16vmax;
     line-height: 1em;
     margin-top: 0;
     margin-bottom: 0;
