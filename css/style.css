@@ -86,8 +86,8 @@ body {
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
   h1 {
     font-size: 5.729vmax;
-    padding-top: 13vmax;
-    padding-bottom: 20vmax;
+    padding-top: 12vmax;
+    padding-bottom: 19vmax;
     line-height: 1em;
     margin-top: 0;
     margin-bottom: 0;
