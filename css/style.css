@@ -1,18 +1,32 @@
 @font-face {
   font-family: "Manrope", sans-serif;
-  src: url("/css/fonts/OpenSans-Regular.ttf");
-  src: url("/css/fonts/OpenSans-Regular.wOFF");
-  src: url("/css/fonts/OpenSans-Regular.wOFF2");
-  font-weight: normal;
+  src: url("/css/fonts/bold.otf");
+  src: url("/css/fonts/fonts/bold.woff");
+  src: url("/css/fonts/fonts/bold.woff2");
+  font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "OpenSans", sans-serif;
-  src: url("/css/fonts/OpenSans-Bold.ttf");
-  src: url("/css/fonts/OpenSans-Bold.wOFF");
-  src: url("/css/fonts/OpenSans-Bold.wOFF2");
+  font-family: "Manrope", sans-serif;
+  src: url("/css/fonts/thin.otf");
+  src: url("/css/fonts/thin.woff");
+  src: url("/css/fonts/thin.woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anglecia Pro Display", serif;
+  src: url("/css/fonts/ANGLECIAPRODISPLAYBOLDITALIC.OTF");
   font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anglecia Pro Display", serif;
+  src: url("/css/fonts/ANGLECIAPRODISPLAYREGULAR.OTF");
+  font-weight: normal;
   font-style: normal;
 }
 
