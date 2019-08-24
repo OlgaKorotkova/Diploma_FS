@@ -297,3 +297,55 @@ h1 {
     letter-spacing: 0.1vmax;
   }
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 7.8vmin;
+    line-height: 1em;
+    padding-top: 9.375%;
+    padding-bottom: 25%;
+  }
+  
+  .first_line {
+    display: block;
+    padding-left: 23%;
+  }
+
+  .second_line {
+    display: block;
+    padding-left: 9.375%;
+  }
+  
+  .logo_header {
+    width: 6.25%;
+    height: 9.375%;
+    padding-top: 2%;
+  }
+  
+  .header {
+    background-image: url("../img/bg%20for%20footer_320.jpg");
+    background-size: cover;
+    width: 100%;
+    max-width: 480px;
+  }
+  
+  .header_photo {
+    opacity: 0.20;
+    width: 44.3%;
+    position: absolute;
+    left: 28%;
+    bottom: 0; 
+  }
+  
+  .button {
+    width: 30vmin;
+    height: 9.375vmin;
+    left: 35vmin;
+    bottom: 6.25vmin;
+  }
+  
+  .button a {
+    font-size: 2.5vmin;
+    letter-spacing: 0.1vmin;
+  }
+}
