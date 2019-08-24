@@ -167,7 +167,7 @@ h1 {
   }
   
   .header {
-    background-image: url("../img/photo_header_1200.png");
+    background-image: url("../img/bg%20header_1200.jpg");
     background-size: cover;
     width: 100%;
     max-width: 1440px;
@@ -190,6 +190,58 @@ h1 {
   
   .button a {
     font-size: 2.08vmax;
+    letter-spacing: 0.1vmax;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+  h1 {
+    font-size: 7vmax;
+    line-height: 1em;
+    padding-top: 10%;
+    padding-bottom: 7.3%;
+  }
+  
+  .first_line {
+    display: block;
+    padding-left: 26%;
+  }
+
+  .second_line {
+    display: block;
+    padding-left: 17%;
+  }
+  
+  .logo_header {
+    width: 3%;
+    height: 4.6%;
+    padding-top: 2%;
+  }
+  
+  .header {
+    background-image: url("../img/bg%20for%20footer_960.jpg");
+    background-size: cover;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+   .header_photo {
+    opacity: 0.20;
+    width: 29%;
+    position: absolute;
+    left: 35%;
+    bottom: 0; 
+  }
+  
+  .button {
+    width: 19.2vmax;
+    height: 6vmax;
+    left: 40vmax;
+    bottom: 2.6vmax;
+  }
+  
+  .button a {
+    font-size: 1.7vmax;
     letter-spacing: 0.1vmax;
   }
 }
