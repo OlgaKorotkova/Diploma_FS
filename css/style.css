@@ -196,7 +196,7 @@ h1 {
 
 @media (min-width: 961px) and (max-width: 1200px) {
   h1 {
-    font-size: 7vmax;
+    font-size: 7vmin;
     line-height: 1em;
     padding-top: 10%;
     padding-bottom: 15%;
@@ -234,21 +234,21 @@ h1 {
   }
   
   .button {
-    width: 19.2vmax;
-    height: 6vmax;
-    left: 40vmax;
-    bottom: 2.6vmax;
+    width: 18.1vmin;
+    height: 6vmin;
+    left: 40vmin;
+    bottom: 2.6vmin;
   }
   
   .button a {
-    font-size: 1.7vmax;
-    letter-spacing: 0.1vmax;
+    font-size: 1.7vmin;
+    letter-spacing: 0.1vmin;
   }
 }
 
 @media (min-width: 480px) and (max-width: 960px) {
   h1 {
-    font-size: 6.25vmax;
+    font-size: 6.25vmin;
     line-height: 1em;
     padding-top: 4%;
     padding-bottom: 18%;
