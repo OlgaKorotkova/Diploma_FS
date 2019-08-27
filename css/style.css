@@ -204,12 +204,12 @@ h1 {
   
   .first_line {
     display: block;
-    padding-left: 26%;
+    text-align: center;
   }
 
   .second_line {
     display: block;
-    padding-left: 17%;
+    text-align: center;
   }
   
   .logo_header {
@@ -256,12 +256,12 @@ h1 {
   
   .first_line {
     display: block;
-    padding-left: 26%;
+    text-align: center;
   }
 
   .second_line {
     display: block;
-    padding-left: 17%;
+    text-align: center;
   }
   
   .logo_header {
@@ -308,12 +308,12 @@ h1 {
   
   .first_line {
     display: block;
-    padding-left: 23%;
+    text-align: center;
   }
 
   .second_line {
     display: block;
-    padding-left: 9.375%;
+    text-align: center;
   }
   
   .logo_header {
