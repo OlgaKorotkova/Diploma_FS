@@ -39,6 +39,7 @@ body {
   margin-right: auto;
   width: 100%;
   max-width: 1920px;
+  background-color: #e5f2f6;
 }
 
 .header {
@@ -347,5 +348,109 @@ h1 {
   .button a {
     font-size: 2.5vmin;
     letter-spacing: 0.1vmin;
+  }
+}
+
+.casual {
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.casual h2 {
+  font-family: "Anglecia Pro Display", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+  color: #262525;
+  position: absolute;
+}
+
+.order_casual {
+  background-color: #59314f;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  position: absolute;
+}
+
+.order_casual a {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.order_casual:hover {
+  background-color: #2f4f4f;
+  border: none;
+}
+
+.order_casual:hover:active, .button:active {
+  background-color: #2f4f4f;
+}
+
+.casual_collection {
+  text-transform: uppercase;
+  color: #262525;
+  position: absolute;
+}
+
+.square_casual {
+  background-color: #bbb5bf;
+  width: 30%;
+  height: 51%;
+  position: absolute;
+  -moz-transform: rotate(90deg); 
+  -ms-transform: rotate(90deg); 
+  -webkit-transform: rotate(90deg); 
+  -o-transform: rotate(90deg); 
+  transform: rotate(90deg);
+}
+
+.hat_casual {
+  position: absolute;
+}
+
+@media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
+  .casual h2 {
+    font-size: 13vmax;
+    top: 74vmax;
+    left: 23vmax;
+    z-index: 1;
+  }
+  
+  .square_casual {
+    width: 51vmax;
+    height: 28vmax;
+    left: 48%;
+    top: 58vmax;
+  }
+  
+  .hat_casual {
+    left: 56vmax;
+    top: 70vmax;
+  }
+  
+  .order_casual {
+    width: 23vmax;
+    height: 6vmax;
+    left: 28%;
+    top: 88vmax;
+  }
+  
+  .order_casual a {
+    font-size: 2vmax;
+  }
+  
+  .casual_collection {
+    font-size: 2vmax;
+    top: 73vmax;
+    left: 32vmax;
   }
 }
