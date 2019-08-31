@@ -417,10 +417,17 @@ h1 {
 }
 
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
-  .casual, .special {
+  .casual {
     width: 100%;
     max-width: 1920px;
     height: 72vmax;
+  }
+  
+  .special {
+    width: 100%;
+    max-width: 1920px;
+    height: 72vmax;
+    top: 72vmax;
   }
   
   .casual h2 {
