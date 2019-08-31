@@ -422,7 +422,6 @@ h1 {
     width: 100%;
     max-width: 1920px;
     height: 72vmax;
-    top: 72vmax;
   }
   
   .casual h2 {
@@ -441,15 +440,15 @@ h1 {
   .square_casual {
     height: 51vmax;
     width: 28vmax;
-    left: 39vmax;
-    top: 21.6vmax;
+    left: 50.5vmax;
+    top: 10vmax;
   }
   
   .square_special {
-    height: 51vmax;
+    height: 58vmax;
     width: 28vmax;
     left: 19vmax;
-    bottom: 57vmax;
+    top: 7vmax;
   }
   
   .hat_casual {
@@ -484,7 +483,7 @@ h1 {
     font-size: 2.35vmax;
     top: 29vmax;
     left: 12vmax;
-    letter-spacing: 0.2vmax;
+    letter-spacing: 0.13vmax;
   }
   
   .special_collection {
