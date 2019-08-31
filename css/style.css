@@ -94,8 +94,8 @@ h1 {
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
   h1 {
     font-size: 5.729vmax;
-    padding-top: 10%;
-    padding-bottom: 23%;
+    padding-top: 13vmax;
+    padding-bottom: 23vmax;
     line-height: 1em;
   }
 
@@ -423,26 +423,26 @@ h1 {
   .casual h2 {
     font-size: 13vmax;
     top: 30vmax;
-    left: 23vmax;
+    left: 13vmax;
     z-index: 1;
   }
   
   .square_casual {
     width: 51vmax;
     height: 28vmax;
-    left: 48%;
+    left: 38%;
     top: 18vmax;
   }
   
   .hat_casual {
-    left: 56vmax;
+    left: 47vmax;
     top: 28vmax;
   }
   
   .order_casual {
     width: 23vmax;
     height: 6vmax;
-    left: 30%;
+    left: 16vmax;
     top: 46vmax;
   }
   
@@ -453,6 +453,6 @@ h1 {
   .casual_collection {
     font-size: 2vmax;
     top: 28vmax;
-    left: 30vmax;
+    left: 16vmax;
   }
 }
