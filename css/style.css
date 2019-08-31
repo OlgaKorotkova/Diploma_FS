@@ -423,15 +423,15 @@ h1 {
   .casual h2 {
     font-size: 13vmax;
     top: 31vmax;
-    left: 12vmax;
+    left: 11vmax;
     z-index: 1;
   }
   
   .square_casual {
     width: 51vmax;
     height: 28vmax;
-    left: 38vmax;
-    top: 22vmax;
+    left: 39vmax;
+    top: 21.6vmax;
   }
   
   .hat_casual {
@@ -442,7 +442,7 @@ h1 {
   .order_casual {
     width: 23vmax;
     height: 6vmax;
-    left: 11vmax;
+    left: 12vmax;
     top: 49vmax;
   }
   
@@ -452,7 +452,7 @@ h1 {
   
   .casual_collection {
     font-size: 2.35vmax;
-    top: 30vmax;
-    left: 11vmax;
+    top: 29vmax;
+    left: 12vmax;
   }
 }
