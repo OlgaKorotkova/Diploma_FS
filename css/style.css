@@ -133,8 +133,8 @@ h1 {
    .button {
     width: 19vmax;
     height: 4vmax;
-    left: 40vmax;
-    bottom: 5vmax;
+    left: 41vmax;
+    bottom: 6vmax;
   }
   
   .button a {
@@ -430,20 +430,20 @@ h1 {
   .square_casual {
     width: 51vmax;
     height: 28vmax;
-    left: 38vmax;
-    top: 18vmax;
+    left: 37vmax;
+    top: 19vmax;
   }
   
   .hat_casual {
-    left: 45vmax;
-    top: 26vmax;
+    left: 44vmax;
+    top: 27vmax;
   }
   
   .order_casual {
     width: 23vmax;
     height: 6vmax;
-    left: 14vmax;
-    top: 44vmax;
+    left: 13vmax;
+    top: 45vmax;
   }
   
   .order_casual a {
@@ -451,8 +451,8 @@ h1 {
   }
   
   .casual_collection {
-    font-size: 2vmax;
+    font-size: 2.35vmax;
     top: 26vmax;
-    left: 14vmax;
+    left: 13vmax;
   }
 }
