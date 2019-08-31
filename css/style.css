@@ -95,18 +95,18 @@ h1 {
   h1 {
     font-size: 5.729vmax;
     padding-top: 13vmax;
-    padding-bottom: 23vmax;
+    padding-bottom: 25vmax;
     line-height: 1em;
   }
 
   .first_line {
     display: block;
-    padding-left: 12%;
+    padding-left: 11vmax;
   }
 
   .second_line {
     display: block;
-    padding-left: 35%;
+    padding-left: 33vmax;
   }
 
   .logo_header {
@@ -134,7 +134,7 @@ h1 {
     width: 19vmax;
     height: 4vmax;
     left: 41vmax;
-    bottom: 4vmax;
+    bottom: 6vmax;
   }
   
   .button a {
@@ -422,28 +422,28 @@ h1 {
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
   .casual h2 {
     font-size: 13vmax;
-    top: 30vmax;
-    left: 13vmax;
+    top: 27vmax;
+    left: 12vmax;
     z-index: 1;
   }
   
   .square_casual {
     width: 51vmax;
     height: 28vmax;
-    left: 38%;
+    left: 38vmax;
     top: 18vmax;
   }
   
   .hat_casual {
-    left: 47vmax;
-    top: 28vmax;
+    left: 45vmax;
+    top: 26vmax;
   }
   
   .order_casual {
     width: 23vmax;
     height: 6vmax;
-    left: 16vmax;
-    top: 46vmax;
+    left: 14vmax;
+    top: 44vmax;
   }
   
   .order_casual a {
@@ -452,7 +452,7 @@ h1 {
   
   .casual_collection {
     font-size: 2vmax;
-    top: 28vmax;
-    left: 16vmax;
+    top: 26vmax;
+    left: 14vmax;
   }
 }
