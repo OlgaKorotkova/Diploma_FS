@@ -95,7 +95,7 @@ h1 {
   h1 {
     font-size: 5.729vmax;
     padding-top: 13vmax;
-    padding-bottom: 21vmax;
+    padding-bottom: 19vmax;
     line-height: 1em;
   }
 
@@ -126,7 +126,7 @@ h1 {
     opacity: 0.20;
     width: 36%;
     position: absolute;
-    left: 32%;
+    left: 33vmax;
     bottom: 0;
   }
   
@@ -134,7 +134,7 @@ h1 {
     width: 19vmax;
     height: 4vmax;
     left: 40vmax;
-    bottom: 6vmax;
+    bottom: 5vmax;
   }
   
   .button a {
