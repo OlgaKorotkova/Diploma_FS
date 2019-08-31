@@ -405,11 +405,6 @@ h1 {
 .square_casual, .square_special {
   background-color: #bbb5bf;
   position: absolute;
-  -moz-transform: rotate(90deg); 
-  -ms-transform: rotate(90deg); 
-  -webkit-transform: rotate(90deg); 
-  -o-transform: rotate(90deg); 
-  transform: rotate(90deg);
 }
 
 .hat_casual, .hat_special {
@@ -444,15 +439,15 @@ h1 {
   }
   
   .square_casual {
-    width: 51vmax;
-    height: 28vmax;
+    height: 51vmax;
+    width: 28vmax;
     left: 39vmax;
     top: 21.6vmax;
   }
   
   .square_special {
-    width: 51vmax;
-    height: 28vmax;
+    height: 51vmax;
+    width: 28vmax;
     left: 19vmax;
     bottom: 57vmax;
   }
