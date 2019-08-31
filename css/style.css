@@ -147,18 +147,18 @@ h1 {
   h1 {
     font-size: 7vmax;
     line-height: 1em;
-    padding-top: 17%;
-    padding-bottom: 23%;
+    padding-top: 17vmax;
+    padding-bottom: 23vmax;
   }
   
   .first_line {
     display: block;
-    padding-left: 26%;
+    padding-left: 26vmax;
   }
 
   .second_line {
     display: block;
-    padding-left: 16%;
+    padding-left: 16vmax;
   }
   
   .logo_header {
@@ -176,9 +176,9 @@ h1 {
   
   .header_photo {
     opacity: 0.20;
-    width: 36%;
+    width: 36vmax;
     position: absolute;
-    left: 32%;
+    left: 32vmax;
     bottom: 0; 
   }
   
@@ -199,8 +199,8 @@ h1 {
   h1 {
     font-size: 7vmin;
     line-height: 1em;
-    padding-top: 10%;
-    padding-bottom: 15%;
+    padding-top: 10vmin;
+    padding-bottom: 15vmin;
   }
   
   .first_line {
@@ -228,9 +228,9 @@ h1 {
   
    .header_photo {
     opacity: 0.20;
-    width: 29%;
+    width: 29vmin;
     position: absolute;
-    left: 35%;
+    left: 35vmin;
     bottom: 0; 
   }
   
@@ -251,8 +251,8 @@ h1 {
   h1 {
     font-size: 6.25vmin;
     line-height: 1em;
-    padding-top: 4%;
-    padding-bottom: 18%;
+    padding-top: 4vmin;
+    padding-bottom: 18vmin;
   }
   
   .first_line {
@@ -280,9 +280,9 @@ h1 {
   
   .header_photo {
     opacity: 0.20;
-    width: 29%;
+    width: 29vmin;
     position: absolute;
-    left: 35%;
+    left: 35vmin;
     bottom: 0; 
   }
   
@@ -303,8 +303,8 @@ h1 {
   h1 {
     font-size: 7.8vmin;
     line-height: 1em;
-    padding-top: 9.375%;
-    padding-bottom: 25%;
+    padding-top: 9.375vmin;
+    padding-bottom: 25vmin;
   }
   
   .first_line {
@@ -332,9 +332,9 @@ h1 {
   
   .header_photo {
     opacity: 0.20;
-    width: 44.3%;
+    width: 44.3vmin;
     position: absolute;
-    left: 28%;
+    left: 28vmin;
     bottom: 0; 
   }
   
@@ -351,7 +351,7 @@ h1 {
   }
 }
 
-.casual {
+.casual, .special {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
@@ -360,7 +360,7 @@ h1 {
   position: relative;
 }
 
-.casual h2 {
+.casual h2, .special h2 {
   font-family: "Anglecia Pro Display", serif;
   margin-top: 0;
   margin-bottom: 0;
@@ -369,7 +369,7 @@ h1 {
   position: absolute;
 }
 
-.order_casual {
+.order_casual, .order_special {
   background-color: #59314f;
   border: none;
   text-transform: uppercase;
@@ -381,32 +381,29 @@ h1 {
   position: absolute;
 }
 
-.order_casual a {
+.order_casual a, .order_special a {
   text-decoration: none;
   color: #e5e5e5;
 }
 
-.order_casual:hover {
+.order_casual:hover, .order_special:hover {
   background-color: #2f4f4f;
   border: none;
 }
 
-.order_casual:hover:active, .button:active {
+.order_casual:hover:active, .order_special:hover:active, .button:active {
   background-color: #2f4f4f;
 }
 
-.casual_collection {
+.casual_collection, .special_collection {
   text-transform: uppercase;
   color: #262525;
   position: absolute;
   font-weight: bold;
-  letter-spacing: 0.2vmax;
 }
 
-.square_casual {
+.square_casual, .square_special {
   background-color: #bbb5bf;
-  width: 30%;
-  height: 51%;
   position: absolute;
   -moz-transform: rotate(90deg); 
   -ms-transform: rotate(90deg); 
@@ -415,7 +412,7 @@ h1 {
   transform: rotate(90deg);
 }
 
-.hat_casual {
+.hat_casual, .hat_special {
   position: absolute;
 }
 
@@ -427,6 +424,12 @@ h1 {
     z-index: 1;
   }
   
+  .special h2 {
+    font-size: 13vmax;
+    bottom: 80vmax;
+    left: 45vmax;
+  }
+  
   .square_casual {
     width: 51vmax;
     height: 28vmax;
@@ -434,9 +437,21 @@ h1 {
     top: 21.6vmax;
   }
   
+  .square_special {
+    width: 51vmax;
+    height: 28vmax;
+    left: 19vmax;
+    bottom: 57vmax;
+  }
+  
   .hat_casual {
     left: 44vmax;
     top: 30vmax;
+  }
+  
+  .hat_special {
+    left: 13vmax;
+    bottom: 68vmax;
   }
   
   .order_casual {
@@ -446,7 +461,14 @@ h1 {
     top: 49vmax;
   }
   
-  .order_casual a {
+  .order_special {
+    width: 23vmax;
+    height: 6vmax;
+    left: 57vmax;
+    bottom: 71vmax;
+  }
+  
+  .order_casual a, .order_special a {
     font-size: 2vmax;
   }
   
@@ -454,5 +476,13 @@ h1 {
     font-size: 2.35vmax;
     top: 29vmax;
     left: 12vmax;
+    letter-spacing: 0.2vmax;
+  }
+  
+  .special_collection {
+    font-size: 2.35vmax;
+    letter-spacing: 0.2vmax;
+    left: 46vmax;
+    bottom: 94vmax;
   }
 }
