@@ -63,7 +63,7 @@ h1 {
   margin-bottom: 0;
   font-weight: 100;
   color: #262525;
-  }
+}
 
 .button {
   background-color: #59314f;
@@ -501,3 +501,121 @@ h1 {
     top: 22vmax;
   }
 }
+
+.footer {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.logo_footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscription_box {
+  background: #bbb5bf;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.footer h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Anglecia Pro Display", serif;
+  font-weight: normal;
+  color: #262525;
+}
+
+.footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  color: #262525;
+}
+
+.footer_form_background input {
+  text-transform: uppercase;
+  color: #262525;
+  font-size: 12px;
+  text-align: left;
+  font-family: "Manrope", sans-serif;
+  width: 220px;
+  line-height: 3.5em;
+  box-sizing: border-box;
+  margin-left: auto;
+}
+
+.footer_form_background .footer_button {
+  background-color: rgb(204, 200, 56);
+  color: rgb(20, 23, 28);
+  border: 1px solid rgb(204, 200, 56);
+  padding: 8px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  left: 825px;
+  width: 220px;
+  position: absolute;
+  line-height: 2.2em;
+  letter-spacing: 0.06vmax;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+}
+
+.footer_form_background .footer_button:hover {
+  background: rgb(81, 144, 139);
+  border: 1px solid rgb(81, 144, 139);
+}
+
+.footer_form_background .footer_button:hover:active,
+.footer_form_background .footer_button:active {
+  background-color: rgb(81, 144, 139);
+}
+
+@media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
+  .footer h3 {
+    font-size: 5.729vmax;
+    padding-top: 13vmax;
+    padding-bottom: 19vmax;
+    line-height: 1em;
+  }
+
+  .footer p {
+    font-size: 2.344vmax;
+    padding-top: 13vmax;
+    padding-bottom: 19vmax;
+    line-height: 1em;
+  }
+
+  .subscription_box {
+    width: 62.5vmax;
+    height: 36.4vmax;
+  }
+
+  .logo_footer {
+    width: 3%;
+    height: 4%;
+    padding-bottom: 2%;
+  }
+
+  .footer {
+    background-image: url("../img/bg%20for%20footer_1920_violet.jpg");
+    background-size: cover;
+    width: 100%;
+    max-width: 1920px;
+  }
+}
+  
