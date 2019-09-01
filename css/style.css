@@ -433,8 +433,9 @@ h1 {
   
   .special h2 {
     font-size: 13vmax;
-    bottom: 80vmax;
-    left: 45vmax;
+    top: 26vmax;
+    left: 36.6vmax;
+    z-index: 1;
   }
   
   .square_casual {
