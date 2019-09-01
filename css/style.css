@@ -135,6 +135,7 @@ h1 {
     height: 4vmax;
     left: 41vmax;
     bottom: 4vmax;
+    box-shadow: 0 0 7px 2px #262525;
   }
   
   .button a {
@@ -187,6 +188,7 @@ h1 {
     height: 4vmax;
     left: 41vmax;
     bottom: 4vmax;
+    box-shadow: 0 0 7px 2px #262525;
   }
   
   .button a {
@@ -239,6 +241,7 @@ h1 {
     height: 6vmin;
     left: 40vmin;
     bottom: 2.6vmin;
+    box-shadow: 0 0 5px 1px #262525;
   }
   
   .button a {
@@ -291,6 +294,7 @@ h1 {
     height: 5.4vmin;
     left: 40vmin;
     bottom: 3.1vmin;
+    box-shadow: 0 0 5px 1px #262525;
   }
   
   .button a {
@@ -343,6 +347,7 @@ h1 {
     height: 9.375vmin;
     left: 35vmin;
     bottom: 6.25vmin;
+    box-shadow: 0 0 5px 1px #262525;
   }
   
   .button a {
@@ -467,14 +472,16 @@ h1 {
     height: 6vmax;
     left: 12vmax;
     top: 49vmax;
+    box-shadow: 0 0 7px 2px #262525;
   }
   
   .order_special {
     width: 23vmax;
     height: 6vmax;
-    left: 57vmax;
-    bottom: 71vmax;
-  }
+    left: 56.5vmax;
+    top: 43vmax;
+    box-shadow: 0 0 7px 2px #262525;
+}
   
   .order_casual a, .order_special a {
     font-size: 2vmax;
