@@ -513,9 +513,10 @@ h1 {
   position: relative;
 }
 
-.logo_footer {
+.logo_icon_footer {
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 .footer_form_background input {
@@ -563,7 +564,7 @@ h1 {
 }
 
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
-  .logo_footer {
+  .logo_icon_footer {
     width: 3%;
     height: 4%;
     padding-bottom: 2%;
