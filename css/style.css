@@ -588,8 +588,7 @@ h1 {
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
   .footer h3 {
     font-size: 5.729vmax;
-    padding-top: 13vmax;
-    padding-bottom: 19vmax;
+    padding-top: 4vmax;
     line-height: 1em;
   }
 
@@ -602,7 +601,8 @@ h1 {
 
   .subscription_box {
     width: 62.5vmax;
-    height: 36.4vmax;
+    height: 36.5vmax;
+    top: 5vmax;
   }
 
   .logo_footer {
