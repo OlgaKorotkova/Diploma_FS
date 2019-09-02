@@ -517,31 +517,6 @@ h1 {
   margin-right: auto;
 }
 
-.subscription_box {
-  background: #bbb5bf;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
-.footer h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Anglecia Pro Display", serif;
-  font-weight: normal;
-  color: #262525;
-}
-
-.footer p {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "Manrope", sans-serif;
-  font-weight: normal;
-  color: #262525;
-}
-
 .footer_form_background input {
   text-transform: uppercase;
   color: #262525;
@@ -586,25 +561,6 @@ h1 {
 }
 
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
-  .footer h3 {
-    font-size: 5.729vmax;
-    padding-top: 4vmax;
-    line-height: 1em;
-  }
-
-  .footer p {
-    font-size: 2.344vmax;
-    padding-top: 13vmax;
-    padding-bottom: 19vmax;
-    line-height: 1em;
-  }
-
-  .subscription_box {
-    width: 62.5vmax;
-    height: 36.5vmax;
-    top: 5vmax;
-  }
-
   .logo_footer {
     width: 3%;
     height: 4%;
@@ -612,7 +568,7 @@ h1 {
   }
 
   .footer {
-    background-image: url("../img/bg%20for%20footer_1920_violet.jpg");
+    background-image: url("../img/bg%20for%20footer_1920.jpg");
     background-size: cover;
     width: 100%;
     max-width: 1920px;
