@@ -510,6 +510,7 @@ h1 {
   background-position: center;
   margin-top: 0;
   margin-bottom: 0;
+  position: relative;
 }
 
 .logo_footer {
