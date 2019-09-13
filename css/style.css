@@ -199,10 +199,10 @@ h1 {
 
 @media (min-width: 961px) and (max-width: 1200px) {
   h1 {
-    font-size: 7vmin;
+    font-size: 6.8vmin;
     line-height: 1em;
     padding-top: 10vmin;
-    padding-bottom: 15vmin;
+    padding-bottom: 18vmin;
   }
   
   .first_line {
@@ -230,7 +230,7 @@ h1 {
   
    .header_photo {
     opacity: 0.20;
-    width: 29vmin;
+    width: 34vmin;
     position: absolute;
     left: 35vmin;
     bottom: 0; 
@@ -239,7 +239,7 @@ h1 {
   .button {
     width: 18.1vmin;
     height: 6vmin;
-    left: 40vmin;
+    left: 43vmin;
     bottom: 2.6vmin;
     box-shadow: 0 0 5px 1px #262525;
   }
@@ -592,85 +592,85 @@ h1 {
   .casual {
     width: 100%;
     max-width: 960px;
-    height: 115vmax;
+    height: 80vmin;
   }
   
   .special {
     width: 100%;
     max-width: 960px;
-    height: 115vmax;
+    height: 80vmin;
   }
   
   .casual h2 {
-    font-size: 14.9vmax;
-    top: 39vmax;
-    left: 6vmax;
+    font-size: 8.3vmin;
+    top: 33vmin;
+    left: 29vmin;
     z-index: 1;
   }
   
   .special h2 {
-    font-size: 14.9vmax;
-    top: 34vmax;
-    left: 44vmax;
+    font-size: 8.3vmin;
+    top: 34vmin;
+    left: 47vmin;
     z-index: 1;
   }
   
   .square_casual {
-    height: 81vmax;
-    width: 43vmax;
-    left: 52vmax;
-    top: 16vmax;
+    height: 51vmin;
+    width: 32vmin;
+    left: 58vmin;
+    top: 5vmin;
   }
   
   .square_special {
-    height: 81vmax;
-    width: 43vmax;
+    height: 51vmin;
+    width: 32vmin;
     left: 10vmax;
     top: 4vmax;
   }
   
   .hat_casual {
-    left: 44vmax;
-    top: 36vmax;
+    left: 56vmin;
+    top: 18vmin;
   }
   
   .hat_special {
-    left: 3vmax;
-    top: 22vmax;
+    left: 14vmin;
+    top: 13vmin;
   }
   
   .order_casual {
-    width: 29vmax;
-    height: 11vmax;
-    left: 12vmax;
-    top: 57vmax;
+    width: 21vmin;
+    height: 8vmin;
+    left: 64vmin;
+    top: 60vmin;
     box-shadow: 0 0 7px 2px #262525;
   }
   
   .order_special {
-    width: 29vmax;
-    height: 11vmax;
-    left: 57vmax;
-    top: 54vmax;
+    width: 21vmin;
+    height: 8vmin;
+    left: 19vmin;
+    top: 60vmin;
     box-shadow: 0 0 7px 2px #262525;
 }
   
   .order_casual a, .order_special a {
-    font-size: 3.5vmax;
+    font-size: 2.5vmin;
   }
   
   .casual_collection {
-    font-size: 3.56vmax;
-    top: 35.5vmax;
-    left: 12vmax;
-    letter-spacing: 0.13vmax;
+    font-size: 2vmin;
+    top: 31vmin;
+    left: 31vmin;
+    letter-spacing: 0.13vmin;
   }
   
   .special_collection {
-    font-size: 3.56vmax;
-    letter-spacing: 0.13vmax;
-    left: 54vmax;
-    top: 32vmax;
+    font-size: 2vmin;
+    letter-spacing: 0.13vmin;
+    left: 53vmin;
+    top: 32vmin;
   }
 }
 
@@ -838,35 +838,35 @@ h1 {
   
   .footer_photo {
     opacity: 0.20;
-    width: 48%;
+    width: 38%;
     position: absolute;
-    left: 28vmax;
+    left: 35vmin;
     bottom: 0;
   }
   
   .footer_form_background .name {
-    font-size: 0.729vmax;
-    width: 17vmax;
-    line-height: 5em;
-    top: 23vmax;
-    left: 19vmax;
+    font-size: 1.25vmin;
+    width: 17vmin;
+    line-height: 3em;
+    top: 23vmin;
+    left: 19vmin;
   }
   
   .footer_form_background .email {
-    font-size: 0.729vmax;
-    width: 17vmax;
-    line-height: 5em;
-    top: 23vmax;
-    left: 37vmax;
+    font-size: 1.25vmin;
+    width: 17vmin;
+    line-height: 3em;
+    top: 23vmin;
+    left: 37vmin;
   }
   
   .footer_form_background .footer_button {
-    font-size: 0.729vmax;
-    left: 55vmax;
-    top: 23vmax;
-    width: 17vmax;
-    line-height: 5em;
-    letter-spacing: 0.06vmax;
+    font-size: 1.25vmin;
+    left: 55vmin;
+    top: 23vmin;
+    width: 17vmin;
+    line-height: 3em;
+    letter-spacing: 0.06vmin;
   }
 }
   
