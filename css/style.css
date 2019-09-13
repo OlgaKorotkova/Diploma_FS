@@ -525,7 +525,7 @@ h1 {
   .special h2 {
     font-size: 14.9vmax;
     top: 34vmax;
-    left: 43vmax;
+    left: 44vmax;
     z-index: 1;
   }
   
@@ -583,7 +583,7 @@ h1 {
   .special_collection {
     font-size: 3.56vmax;
     letter-spacing: 0.13vmax;
-    left: 52vmax;
+    left: 54vmax;
     top: 32vmax;
   }
 }
@@ -698,38 +698,38 @@ h1 {
     background-image: url("../img/bg%20for%20footer_1200.jpg");
     background-size: cover;
     width: 100%;
-    max-width: 1920px;
+    max-width: 1440px;
   }
   
   .footer_photo {
     opacity: 0.20;
-    width: 42%;
+    width: 48%;
     position: absolute;
-    left: 30vmax;
+    left: 28vmax;
     bottom: 0;
   }
   
   .footer_form_background .name {
     font-size: 0.729vmax;
-    width: 14vmax;
+    width: 17vmax;
     line-height: 5em;
-    top: 25.3vmax;
-    left: 28vmax;
+    top: 23vmax;
+    left: 19vmax;
   }
   
   .footer_form_background .email {
     font-size: 0.729vmax;
-    width: 14vmax;
+    width: 17vmax;
     line-height: 5em;
-    top: 25.3vmax;
-    left: 43vmax;
+    top: 23vmax;
+    left: 37vmax;
   }
   
   .footer_form_background .footer_button {
     font-size: 0.729vmax;
-    left: 58vmax;
-    top: 25.3vmax;
-    width: 14vmax;
+    left: 55vmax;
+    top: 23vmax;
+    width: 17vmax;
     line-height: 5em;
     letter-spacing: 0.06vmax;
   }
