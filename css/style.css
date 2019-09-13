@@ -146,20 +146,20 @@ h1 {
 
 @media (min-width: 1201px) and (max-width: 1440px) {
   h1 {
-    font-size: 7vmax;
+    font-size: 6.8vmax;
     line-height: 1em;
     padding-top: 17vmax;
-    padding-bottom: 23vmax;
+    padding-bottom: 37vmax;
   }
   
   .first_line {
     display: block;
-    padding-left: 26vmax;
+    text-align: center;
   }
 
   .second_line {
     display: block;
-    padding-left: 16vmax;
+    text-align: center;
   }
   
   .logo_header {
@@ -177,9 +177,9 @@ h1 {
   
   .header_photo {
     opacity: 0.20;
-    width: 36vmax;
+    width: 55vmax;
     position: absolute;
-    left: 32vmax;
+    left: 23vmax;
     bottom: 0; 
   }
   
@@ -516,16 +516,16 @@ h1 {
   }
   
   .casual h2 {
-    font-size: 16vmax;
-    top: 45vmax;
-    left: 5vmax;
+    font-size: 14.9vmax;
+    top: 39vmax;
+    left: 6vmax;
     z-index: 1;
   }
   
   .special h2 {
-    font-size: 16vmax;
-    top: 162vmax;
-    left: 45vmax;
+    font-size: 14.9vmax;
+    top: 34vmax;
+    left: 43vmax;
     z-index: 1;
   }
   
@@ -540,51 +540,51 @@ h1 {
     height: 81vmax;
     width: 43vmax;
     left: 10vmax;
-    top: 7vmax;
+    top: 4vmax;
   }
   
   .hat_casual {
     left: 44vmax;
-    top: 30vmax;
+    top: 36vmax;
   }
   
   .hat_special {
-    left: 13vmax;
-    top: 15vmax;
+    left: 3vmax;
+    top: 22vmax;
   }
   
   .order_casual {
-    width: 23vmax;
-    height: 6vmax;
+    width: 29vmax;
+    height: 11vmax;
     left: 12vmax;
-    top: 49vmax;
+    top: 57vmax;
     box-shadow: 0 0 7px 2px #262525;
   }
   
   .order_special {
-    width: 23vmax;
-    height: 6vmax;
-    left: 56.5vmax;
-    top: 43vmax;
+    width: 29vmax;
+    height: 11vmax;
+    left: 57vmax;
+    top: 54vmax;
     box-shadow: 0 0 7px 2px #262525;
 }
   
   .order_casual a, .order_special a {
-    font-size: 2vmax;
+    font-size: 3.5vmax;
   }
   
   .casual_collection {
-    font-size: 2.35vmax;
-    top: 29vmax;
+    font-size: 3.56vmax;
+    top: 35.5vmax;
     left: 12vmax;
     letter-spacing: 0.13vmax;
   }
   
   .special_collection {
-    font-size: 2.35vmax;
+    font-size: 3.56vmax;
     letter-spacing: 0.13vmax;
-    left: 55.6vmax;
-    top: 22vmax;
+    left: 52vmax;
+    top: 32vmax;
   }
 }
 
