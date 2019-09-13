@@ -469,22 +469,22 @@ h1 {
   
   .order_casual {
     width: 23vmax;
-    height: 6vmax;
+    height: 9.5vmax;
     left: 12vmax;
-    top: 49vmax;
+    top: 48vmax;
     box-shadow: 0 0 7px 2px #262525;
   }
   
   .order_special {
     width: 23vmax;
-    height: 6vmax;
+    height: 9.5vmax;
     left: 56.5vmax;
     top: 43vmax;
     box-shadow: 0 0 7px 2px #262525;
 }
   
   .order_casual a, .order_special a {
-    font-size: 2vmax;
+    font-size: 2.6vmax;
   }
   
   .casual_collection {
@@ -654,7 +654,7 @@ h1 {
   
   .footer_photo {
     opacity: 0.20;
-    width: 42%;
+    width: 45%;
     position: absolute;
     left: 30vmax;
     bottom: 0;
@@ -662,26 +662,26 @@ h1 {
   
   .footer_form_background .name {
     font-size: 0.729vmax;
-    width: 14vmax;
-    line-height: 5em;
-    top: 25.3vmax;
-    left: 28vmax;
+    width: 19vmax;
+    line-height: 5.5em;
+    top: 25.5vmax;
+    left: 18vmax;
   }
   
   .footer_form_background .email {
     font-size: 0.729vmax;
-    width: 14vmax;
-    line-height: 5em;
-    top: 25.3vmax;
-    left: 43vmax;
+    width: 19vmax;
+    line-height: 5.5em;
+    top: 25.5vmax;
+    left: 38vmax;
   }
   
   .footer_form_background .footer_button {
     font-size: 0.729vmax;
     left: 58vmax;
-    top: 25.3vmax;
-    width: 14vmax;
-    line-height: 5em;
+    top: 25.5vmax;
+    width: 19vmax;
+    line-height: 5.5em;
     letter-spacing: 0.06vmax;
   }
 }
