@@ -588,6 +588,92 @@ h1 {
   }
 }
 
+@media (min-width: 961px) and (max-width: 1200px) {
+  .casual {
+    width: 100%;
+    max-width: 960px;
+    height: 115vmax;
+  }
+  
+  .special {
+    width: 100%;
+    max-width: 960px;
+    height: 115vmax;
+  }
+  
+  .casual h2 {
+    font-size: 14.9vmax;
+    top: 39vmax;
+    left: 6vmax;
+    z-index: 1;
+  }
+  
+  .special h2 {
+    font-size: 14.9vmax;
+    top: 34vmax;
+    left: 44vmax;
+    z-index: 1;
+  }
+  
+  .square_casual {
+    height: 81vmax;
+    width: 43vmax;
+    left: 52vmax;
+    top: 16vmax;
+  }
+  
+  .square_special {
+    height: 81vmax;
+    width: 43vmax;
+    left: 10vmax;
+    top: 4vmax;
+  }
+  
+  .hat_casual {
+    left: 44vmax;
+    top: 36vmax;
+  }
+  
+  .hat_special {
+    left: 3vmax;
+    top: 22vmax;
+  }
+  
+  .order_casual {
+    width: 29vmax;
+    height: 11vmax;
+    left: 12vmax;
+    top: 57vmax;
+    box-shadow: 0 0 7px 2px #262525;
+  }
+  
+  .order_special {
+    width: 29vmax;
+    height: 11vmax;
+    left: 57vmax;
+    top: 54vmax;
+    box-shadow: 0 0 7px 2px #262525;
+}
+  
+  .order_casual a, .order_special a {
+    font-size: 3.5vmax;
+  }
+  
+  .casual_collection {
+    font-size: 3.56vmax;
+    top: 35.5vmax;
+    left: 12vmax;
+    letter-spacing: 0.13vmax;
+  }
+  
+  .special_collection {
+    font-size: 3.56vmax;
+    letter-spacing: 0.13vmax;
+    left: 54vmax;
+    top: 32vmax;
+  }
+}
+
 .footer {
   background-repeat: no-repeat;
   box-sizing: border-box;
@@ -699,6 +785,55 @@ h1 {
     background-size: cover;
     width: 100%;
     max-width: 1440px;
+  }
+  
+  .footer_photo {
+    opacity: 0.20;
+    width: 48%;
+    position: absolute;
+    left: 28vmax;
+    bottom: 0;
+  }
+  
+  .footer_form_background .name {
+    font-size: 0.729vmax;
+    width: 17vmax;
+    line-height: 5em;
+    top: 23vmax;
+    left: 19vmax;
+  }
+  
+  .footer_form_background .email {
+    font-size: 0.729vmax;
+    width: 17vmax;
+    line-height: 5em;
+    top: 23vmax;
+    left: 37vmax;
+  }
+  
+  .footer_form_background .footer_button {
+    font-size: 0.729vmax;
+    left: 55vmax;
+    top: 23vmax;
+    width: 17vmax;
+    line-height: 5em;
+    letter-spacing: 0.06vmax;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+  .logo_footer {
+    width: 3%;
+    height: 4%;
+    padding-bottom: 2%;
+    padding-top: 48%;
+  }
+
+  .footer {
+    background-image: url("../img/bg%20for%20footer_1200.jpg");
+    background-size: cover;
+    width: 100%;
+    max-width: 1200px;
   }
   
   .footer_photo {
