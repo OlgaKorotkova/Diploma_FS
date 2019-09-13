@@ -616,7 +616,7 @@ h1 {
 
 .footer_form_background .footer_button {
   background-color: #59314f;
-  color: #262525;
+  color: #e5e5e5;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -677,11 +677,11 @@ h1 {
   }
   
   .footer_form_background .footer_button {
-    font-size: 0.729vmax;
+    font-size: 1.35vmax;
     left: 58vmax;
     top: 25.5vmax;
     width: 19vmax;
-    line-height: 5.5em;
+    line-height: 3em;
     letter-spacing: 0.06vmax;
   }
 }
