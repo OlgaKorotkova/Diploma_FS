@@ -502,6 +502,92 @@ h1 {
   }
 }
 
+@media (min-width: 1201px) and (max-width: 1440px) {
+  .casual {
+    width: 100%;
+    max-width: 1440px;
+    height: 115vmax;
+  }
+  
+  .special {
+    width: 100%;
+    max-width: 1440px;
+    height: 115vmax;
+  }
+  
+  .casual h2 {
+    font-size: 16vmax;
+    top: 45vmax;
+    left: 5vmax;
+    z-index: 1;
+  }
+  
+  .special h2 {
+    font-size: 16vmax;
+    top: 162vmax;
+    left: 45vmax;
+    z-index: 1;
+  }
+  
+  .square_casual {
+    height: 81vmax;
+    width: 43vmax;
+    left: 52vmax;
+    top: 16vmax;
+  }
+  
+  .square_special {
+    height: 81vmax;
+    width: 43vmax;
+    left: 10vmax;
+    top: 7vmax;
+  }
+  
+  .hat_casual {
+    left: 44vmax;
+    top: 30vmax;
+  }
+  
+  .hat_special {
+    left: 13vmax;
+    top: 15vmax;
+  }
+  
+  .order_casual {
+    width: 23vmax;
+    height: 6vmax;
+    left: 12vmax;
+    top: 49vmax;
+    box-shadow: 0 0 7px 2px #262525;
+  }
+  
+  .order_special {
+    width: 23vmax;
+    height: 6vmax;
+    left: 56.5vmax;
+    top: 43vmax;
+    box-shadow: 0 0 7px 2px #262525;
+}
+  
+  .order_casual a, .order_special a {
+    font-size: 2vmax;
+  }
+  
+  .casual_collection {
+    font-size: 2.35vmax;
+    top: 29vmax;
+    left: 12vmax;
+    letter-spacing: 0.13vmax;
+  }
+  
+  .special_collection {
+    font-size: 2.35vmax;
+    letter-spacing: 0.13vmax;
+    left: 55.6vmax;
+    top: 22vmax;
+  }
+}
+
 .footer {
   background-repeat: no-repeat;
   box-sizing: border-box;
