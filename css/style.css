@@ -144,7 +144,7 @@ h1 {
   }
 }
 
-@media (min-width: 1201px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   h1 {
     font-size: 6.8vmax;
     line-height: 1em;
@@ -197,7 +197,7 @@ h1 {
   }
 }
 
-@media (min-width: 761px) and (max-width: 1200px) {
+@media (min-width: 641px) and (max-width: 1024px) {
   h1 {
     font-size: 6.8vmin;
     line-height: 1em;
@@ -225,7 +225,7 @@ h1 {
     background-image: url("../img/bg%20header_1200.jpg");
     background-size: cover;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1024px;
   }
   
    .header_photo {
@@ -250,7 +250,7 @@ h1 {
   }
 }
 
-@media (min-width: 321px) and (max-width: 760px) {
+@media (min-width: 321px) and (max-width: 640px) {
   h1 {
     font-size: 10vmin;
     line-height: 1em;
@@ -278,7 +278,7 @@ h1 {
     background-image: url("../img/bg%20for%20footer_640.jpg");
     background-size: cover;
     width: 100%;
-    max-width: 760px;
+    max-width: 640px;
   }
   
   .header_photo {
@@ -502,7 +502,7 @@ h1 {
   }
 }
 
-@media (min-width: 1201px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .casual {
     width: 100%;
     max-width: 1440px;
@@ -588,16 +588,16 @@ h1 {
   }
 }
 
-@media (min-width: 761px) and (max-width: 1200px) {
+@media (min-width: 641px) and (max-width: 1024px) {
   .casual {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1024px;
     height: 59vmin;
   }
   
   .special {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1024px;
     height: 59vmin;
   }
   
@@ -678,16 +678,16 @@ h1 {
   }
 }
 
-@media (min-width: 321px) and (max-width: 760px) {
+@media (min-width: 321px) and (max-width: 640px) {
   .casual {
     width: 100%;
-    max-width: 760px;
+    max-width: 640px;
     height: 80vmin;
   }
   
   .special {
     width: 100%;
-    max-width: 760px;
+    max-width: 640px;
     height: 80vmin;
   }
   
@@ -951,7 +951,7 @@ h1 {
   }
 }
 
-@media (min-width: 1201px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
   .logo_footer {
     width: 3%;
     height: 4%;
@@ -1000,7 +1000,7 @@ h1 {
   }
 }
 
-@media (min-width: 761px) and (max-width: 1200px) {
+@media (min-width: 640px) and (max-width: 1024px) {
   .logo_footer {
     width: 3%;
     height: 4%;
@@ -1012,7 +1012,7 @@ h1 {
     background-image: url("../img/bg%20for%20footer_960.jpg");
     background-size: cover;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1024px;
   }
   
   .footer_photo {
@@ -1049,7 +1049,7 @@ h1 {
   }
 }
 
-@media (min-width: 321px) and (max-width: 760px) {
+@media (min-width: 321px) and (max-width: 640px) {
   .logo_footer {
     width: 3%;
     height: 4%;
@@ -1061,7 +1061,7 @@ h1 {
     background-image: url("../img/bg%20for%20footer_640.jpg");
     background-size: cover;
     width: 100%;
-    max-width: 760px;
+    max-width: 640px;
   }
   
   .footer_photo {
