@@ -307,7 +307,7 @@ h1 {
   h1 {
     font-size: 7.8vmin;
     line-height: 1em;
-    padding-top: 9.375vmin;
+    padding-top: 11vmin;
     padding-bottom: 25vmin;
   }
   
@@ -344,9 +344,9 @@ h1 {
   
   .button {
     width: 30vmin;
-    height: 9.375vmin;
+    height: 7vmin;
     left: 35vmin;
-    bottom: 6.25vmin;
+    bottom: 5vmin;
     box-shadow: 0 0 5px 1px #262525;
   }
   
@@ -765,85 +765,87 @@ h1 {
   .casual {
     width: 100%;
     max-width: 320px;
-    height: 80vmin;
+    height: 124vmin;
   }
   
   .special {
     width: 100%;
     max-width: 320px;
-    height: 80vmin;
+    height: 124vmin;
   }
   
   .casual h2 {
-    font-size: 8.3vmin;
-    top: 33vmin;
-    left: 29vmin;
+    font-size: 12vmin;
+    top: 50vmin;
+    left: 19vmin;
     z-index: 1;
   }
   
   .special h2 {
-    font-size: 8.3vmin;
-    top: 34vmin;
-    left: 47vmin;
+    font-size: 12vmin;
+    top: 54vmin;
+    left: 39vmin;
     z-index: 1;
   }
   
   .square_casual {
-    height: 51vmin;
-    width: 32vmin;
-    left: 58vmin;
-    top: 5vmin;
+    height: 68vmin;
+    width: 34vmin;
+    left: 56vmin;
+    top: 19vmin;
   }
   
   .square_special {
-    height: 51vmin;
-    width: 32vmin;
-    left: 10vmax;
-    top: 4vmax;
+    height: 82vmin;
+    width: 38vmin;
+    left: 3vmin;
+    top: 0vmin;
   }
   
   .hat_casual {
-    left: 56vmin;
-    top: 18vmin;
+    left: 50vmin;
+    top: 42vmin;
   }
   
   .hat_special {
-    left: 14vmin;
-    top: 13vmin;
+    left: 6vmin;
+    top: 25vmin;
   }
   
   .order_casual {
-    width: 21vmin;
-    height: 8vmin;
-    left: 64vmin;
-    top: 60vmin;
+    width: 36vmin;
+    height: 16vmin;
+    left: 55vmin;
+    top: 89vmin;
     box-shadow: 0 0 7px 2px #262525;
   }
   
   .order_special {
-    width: 21vmin;
-    height: 8vmin;
-    left: 19vmin;
-    top: 60vmin;
+    width: 36vmin;
+    height: 16vmin;
+    left: 11vmin;
+    top: 85vmin;
     box-shadow: 0 0 7px 2px #262525;
 }
   
   .order_casual a, .order_special a {
-    font-size: 2.5vmin;
+    font-size: 4.5vmin;
   }
   
   .casual_collection {
-    font-size: 2vmin;
-    top: 31vmin;
-    left: 31vmin;
-    letter-spacing: 0.13vmin;
+    font-size: 3.7vmin;
+    top: 43vmin;
+    left: 19vmin;
+    letter-spacing: 0.20vmin;
+    z-index: 1;
   }
   
   .special_collection {
-    font-size: 2vmin;
-    letter-spacing: 0.13vmin;
-    left: 53vmin;
-    top: 32vmin;
+    font-size: 3.7vmin;
+    letter-spacing: 0.20vmin;
+    left: 41vmin;
+    top: 48vmin;
+    z-index: 1;
   }
 }
 
@@ -1117,25 +1119,25 @@ h1 {
   
   .footer_form_background .name {
     font-size: 1.25vmin;
-    width: 17vmin;
+    width: 25vmin;
     line-height: 3em;
-    top: 23vmin;
-    left: 19vmin;
+    top: 21vmin;
+    left: 10vmin;
   }
   
   .footer_form_background .email {
     font-size: 1.25vmin;
-    width: 17vmin;
+    width: 25vmin;
     line-height: 3em;
-    top: 23vmin;
-    left: 37vmin;
+    top: 21vmin;
+    left: 36vmin;
   }
   
   .footer_form_background .footer_button {
     font-size: 1.25vmin;
-    left: 55vmin;
-    top: 23vmin;
-    width: 17vmin;
+    left: 63vmin;
+    top: 21vmin;
+    width: 25vmin;
     line-height: 3em;
     letter-spacing: 0.06vmin;
   }
