@@ -252,10 +252,10 @@ h1 {
 
 @media (min-width: 321px) and (max-width: 760px) {
   h1 {
-    font-size: 6.25vmin;
+    font-size: 10vmin;
     line-height: 1em;
-    padding-top: 4vmin;
-    padding-bottom: 18vmin;
+    padding-top: 14vmin;
+    padding-bottom: 25vmin;
   }
   
   .first_line {
