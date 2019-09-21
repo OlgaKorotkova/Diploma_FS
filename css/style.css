@@ -201,8 +201,8 @@ h1 {
   h1 {
     font-size: 6.8vmin;
     line-height: 1em;
-    padding-top: 10vmin;
-    padding-bottom: 18vmin;
+    padding-top: 9vmin;
+    padding-bottom: 15vmin;
   }
   
   .first_line {
@@ -592,26 +592,26 @@ h1 {
   .casual {
     width: 100%;
     max-width: 1200px;
-    height: 80vmin;
+    height: 59vmin;
   }
   
   .special {
     width: 100%;
     max-width: 1200px;
-    height: 80vmin;
+    height: 59vmin;
   }
   
   .casual h2 {
     font-size: 8.3vmin;
-    top: 33vmin;
-    left: 29vmin;
+    top: 22vmin;
+    left: 37vmin;
     z-index: 1;
   }
   
   .special h2 {
     font-size: 8.3vmin;
-    top: 34vmin;
-    left: 47vmin;
+    top: 14vmin;
+    left: 27vmin;
     z-index: 1;
   }
   
@@ -625,52 +625,56 @@ h1 {
   .square_special {
     height: 51vmin;
     width: 32vmin;
-    left: 10vmax;
-    top: 4vmax;
+    left: 7vmin;
+    top: -10vmin;
   }
   
   .hat_casual {
-    left: 56vmin;
-    top: 18vmin;
+    left: 58vmin;
+    top: 17vmin;
   }
   
   .hat_special {
-    left: 14vmin;
-    top: 13vmin;
+    left: 2vmin;
+    top: 1vmin;
   }
   
   .order_casual {
     width: 21vmin;
     height: 8vmin;
     left: 64vmin;
-    top: 60vmin;
+    top: 58vmin;
     box-shadow: 0 0 7px 2px #262525;
   }
   
   .order_special {
     width: 21vmin;
     height: 8vmin;
-    left: 19vmin;
-    top: 60vmin;
+    left: 13vmin;
+    top: 44vmin;
     box-shadow: 0 0 7px 2px #262525;
+    z-index: 1;
+   
 }
   
   .order_casual a, .order_special a {
-    font-size: 2.5vmin;
+    font-size: 3vmin;
   }
   
   .casual_collection {
     font-size: 2vmin;
-    top: 31vmin;
-    left: 31vmin;
+    top: 21vmin;
+    left: 40vmin;
     letter-spacing: 0.13vmin;
+    z-index: 1;
   }
   
   .special_collection {
     font-size: 2vmin;
     letter-spacing: 0.13vmin;
-    left: 53vmin;
-    top: 32vmin;
+    left: 32vmin;
+    top: 12vmin;
+    z-index: 1;
   }
 }
 
