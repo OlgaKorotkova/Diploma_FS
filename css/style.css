@@ -232,14 +232,14 @@ h1 {
     opacity: 0.20;
     width: 34vmin;
     position: absolute;
-    left: 35vmin;
+    left: 33vmin;
     bottom: 0; 
   }
   
   .button {
     width: 18.1vmin;
     height: 6vmin;
-    left: 43vmin;
+    left: 41vmin;
     bottom: 2.6vmin;
     box-shadow: 0 0 5px 1px #262525;
   }
@@ -603,22 +603,22 @@ h1 {
   
   .casual h2 {
     font-size: 8.3vmin;
-    top: 22vmin;
-    left: 37vmin;
+    top: 24vmin;
+    left: 42vmin;
     z-index: 1;
   }
   
   .special h2 {
     font-size: 8.3vmin;
     top: 14vmin;
-    left: 27vmin;
+    left: 35vmin;
     z-index: 1;
   }
   
   .square_casual {
     height: 51vmin;
     width: 32vmin;
-    left: 58vmin;
+    left: 66vmin;
     top: 5vmin;
   }
   
@@ -630,20 +630,22 @@ h1 {
   }
   
   .hat_casual {
+    width: 45%;
     left: 58vmin;
     top: 17vmin;
   }
   
   .hat_special {
-    left: 2vmin;
-    top: 1vmin;
+    width: 30%;
+    left: 8vmin;
+    top: -2vmin;
   }
   
   .order_casual {
     width: 21vmin;
     height: 8vmin;
-    left: 64vmin;
-    top: 58vmin;
+    left: 71vmin;
+    top: 59vmin;
     box-shadow: 0 0 7px 2px #262525;
   }
   
@@ -663,8 +665,8 @@ h1 {
   
   .casual_collection {
     font-size: 2vmin;
-    top: 21vmin;
-    left: 40vmin;
+    top: 22vmin;
+    left: 44vmin;
     letter-spacing: 0.13vmin;
     z-index: 1;
   }
@@ -672,7 +674,7 @@ h1 {
   .special_collection {
     font-size: 2vmin;
     letter-spacing: 0.13vmin;
-    left: 32vmin;
+    left: 41vmin;
     top: 12vmin;
     z-index: 1;
   }
