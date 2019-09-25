@@ -33,12 +33,11 @@
 body {
   font-family: "Manrope", sans-serif;
   box-sizing: border-box;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 1920px;
+  min-width: 320px;
   background-color: #e5f2f6;
 }
 
@@ -112,7 +111,6 @@ h1 {
   .logo_header {
     width: 3%;
     height: 4%;
-    padding-top: 2%;
   }
 
   .header {
@@ -120,6 +118,7 @@ h1 {
     background-size: cover;
     width: 100%;
     max-width: 1920px;
+    padding-top: 2%;
   }
 
   .header_photo {
@@ -165,7 +164,6 @@ h1 {
   .logo_header {
     width: 3%;
     height: 4%;
-    padding-top: 2%;
   }
   
   .header {
@@ -173,6 +171,7 @@ h1 {
     background-size: cover;
     width: 100%;
     max-width: 1440px;
+    padding-top: 2%;
   }
   
   .header_photo {
@@ -218,7 +217,6 @@ h1 {
   .logo_header {
     width: 3%;
     height: 4%;
-    padding-top: 2%;
   }
   
   .header {
@@ -226,6 +224,7 @@ h1 {
     background-size: cover;
     width: 100%;
     max-width: 1024px;
+    padding-top: 2%;
   }
   
    .header_photo {
@@ -271,7 +270,6 @@ h1 {
   .logo_header {
     width: 3%;
     height: 4%;
-    padding-top: 2%;
   }
   
   .header {
@@ -279,6 +277,7 @@ h1 {
     background-size: cover;
     width: 100%;
     max-width: 640px;
+    padding-top: 2%;
   }
   
   .header_photo {
@@ -324,7 +323,6 @@ h1 {
   .logo_header {
     width: 4%;
     height: 5%;
-    padding-top: 2%;
   }
   
   .header {
@@ -332,6 +330,7 @@ h1 {
     background-size: cover;
     width: 100%;
     max-width: 320px;
+    padding-top: 2%;
   }
   
   .header_photo {
