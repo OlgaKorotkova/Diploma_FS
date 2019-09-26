@@ -402,13 +402,15 @@ h1 {
   .casual {
     width: 100%;
     max-width: 1920px;
-    height: 72vmax;
+    min-height: 72vmax;
+    padding: 5vmax;
   }
   
   .special {
     width: 100%;
     max-width: 1920px;
-    height: 72vmax;
+    min-height: 72vmax;
+    padding: 5vmax;
   }
   
   .casual h2 {
@@ -488,13 +490,15 @@ h1 {
   .casual {
     width: 100%;
     max-width: 1440px;
-    height: 115vmax;
+    min-height: 115vmax;
+    padding: 10vmax;
   }
   
   .special {
     width: 100%;
     max-width: 1440px;
-    height: 115vmax;
+    min-height: 115vmax;
+    padding: 10vmax;
   }
   
   .casual h2 {
@@ -574,13 +578,15 @@ h1 {
   .casual {
     width: 100%;
     max-width: 1024px;
-    height: 59vmin;
+    min-height: 59vmin;
+    padding: 5vmin;
   }
   
   .special {
     width: 100%;
     max-width: 1024px;
-    height: 59vmin;
+    min-height: 59vmin;
+    padding: 5vmin;
   }
   
   .casual h2 {
@@ -666,13 +672,15 @@ h1 {
   .casual {
     width: 100%;
     max-width: 640px;
-    height: 75vmin;
+    min-height: 75vmin;
+    padding: 5vmin;
   }
   
   .special {
     width: 100%;
     max-width: 640px;
-    height: 75vmin;
+    min-height: 75vmin;
+    padding: 5vmin;
   }
   
   .casual h2 {
@@ -748,18 +756,19 @@ h1 {
   }
 }
 
-
 @media (max-width: 320px) {
   .casual {
     width: 100%;
     max-width: 320px;
-    height: 124vmin;
+    min-height: 124vmin;
+    padding: 10vmin;
   }
   
   .special {
     width: 100%;
     max-width: 320px;
-    height: 124vmin;
+    min-height: 124vmin;
+    padding: 10vmin;
   }
   
   .casual h2 {
