@@ -863,7 +863,6 @@ body {
   appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
-  position: absolute;
   font-family: "Manrope", sans-serif;
   font-weight: bold;
 }
@@ -902,6 +901,7 @@ body {
     line-height: 5.5em;
     top: 25.5vmax;
     left: 18vmax;
+    padding: 0.5vmax;
   }
   
   .footer_form_background .email {
@@ -910,6 +910,7 @@ body {
     line-height: 5.5em;
     top: 25.5vmax;
     left: 38vmax;
+    padding: 0.5vmax;
   }
   
   .footer_form_background .footer_button {
@@ -919,6 +920,7 @@ body {
     width: 19vmax;
     line-height: 3em;
     letter-spacing: 0.06vmax;
+    padding: 0.5vmax;
   }
 }
 
