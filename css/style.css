@@ -334,6 +334,7 @@ header_name {
   margin-bottom: 0;
   font-weight: normal;
   color: #262525;
+  display: block;
   
 }
 
@@ -346,6 +347,7 @@ header_name {
   cursor: pointer;
   text-decoration: none;
   color: #e5e5e5;
+  display: block;
 }
 
 .order_casual:hover, .order_special:hover {
@@ -361,6 +363,7 @@ header_name {
   text-transform: uppercase;
   color: #262525;
   font-weight: bold;
+  display: block;
 }
 
 .square_casual, .square_special {
@@ -391,8 +394,8 @@ header_name {
   
   .special_header {
     font-size: 13vmax;
-    margin-top: 26vmax;
-    margin-eft: 36.6vmax;
+    margin-top: 0;
+    margin-left: 26vmax;
     z-index: 1;
   }
   
@@ -411,7 +414,7 @@ header_name {
   }
   
   .hat_casual {
-    margin-top: 22vmax;
+    margin-top: 21vmax;
     margin-left: -7vmax;
   }
   
@@ -422,8 +425,8 @@ header_name {
   .order_casual {
     width: 23vmax;
     height: 9.5vmax;
-    margin-left: 12vmax;
-    margin-top: 48vmax;
+    margin-left: 7vmax;
+    margin-top: -10vmax;
     box-shadow: 0 0 7px 2px #262525;
     font-size: 2.6vmax;
   }
@@ -439,16 +442,16 @@ header_name {
   
   .casual_collection {
     font-size: 2.35vmax;
-    margin-top: 29vmax;
-    margin-left: 12vmax;
+    margin-top: 24vmax;
+    margin-left: 6vmax;
     letter-spacing: 0.13vmax;
   }
   
   .special_collection {
     font-size: 2.35vmax;
     letter-spacing: 0.13vmax;
-    margin-left: 55.6vmax;
-    margin-top: 22vmax;
+    margin-left: 45vmax;
+    margin-top: 17vmax;
   }
 }
 
