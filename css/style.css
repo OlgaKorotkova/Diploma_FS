@@ -384,8 +384,8 @@ header_name {
   
   .casual_header {
     font-size: 13vmax;
-    margin-top: 31vmax;
-    margin-left: 11.6vmax;
+    margin-top: -1vmax;
+    margin-left: 6vmax;
     z-index: 1;
   }
   
@@ -399,8 +399,8 @@ header_name {
   .square_casual {
     height: 51vmax;
     width: 28vmax;
-    margin-left: 50.5vmax;
-    margin-top: 10vmax;
+    margin-left: 1vmax;
+    margin-top: 5vmax;
   }
   
   .square_special {
@@ -411,7 +411,8 @@ header_name {
   }
   
   .hat_casual {
-    margin-top: 30vmax;
+    margin-top: 22vmax;
+    margin-left: -7vmax;
   }
   
   .hat_special {
