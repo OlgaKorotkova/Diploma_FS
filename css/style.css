@@ -130,6 +130,7 @@ h1 {
     background-image: url("../img/bg%20header_1920.jpg");
     width: 100%;
     padding-top: 2%;
+    max-width: 1920px;
   }
 
   .header::after {
@@ -176,6 +177,7 @@ h1 {
   .header {
     background-image: url("../img/bg%20header_1920.jpg");
     width: 100%;
+    max-width: 1440px;
     padding-top: 2%;
   }
   
@@ -223,6 +225,7 @@ h1 {
   .header {
     background-image: url("../img/bg%20header_1200.jpg");
     width: 100%;
+    max-width: 1024px;
     padding-top: 2%;
   }
   
@@ -270,6 +273,7 @@ h1 {
   .header {
     background-image: url("../img/bg%20for%20footer_640.jpg");
     width: 100%;
+    max-width: 640px;
     padding-top: 2%;
   }
   
@@ -317,6 +321,7 @@ h1 {
   .header {
     background-image: url("../img/bg%20for%20footer_320.jpg");
     width: 100%;
+    max-width: 320px;
     padding-top: 2%;
   }
   
@@ -847,14 +852,27 @@ h1 {
 }
 
 .footer {
-  background-repeat: no-repeat;
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  background-position: center;
   margin-top: 0;
   margin-bottom: 0;
   position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.20;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  bottom: 0;
 }
 
 .logo_footer {
@@ -910,12 +928,8 @@ h1 {
     max-width: 1920px;
   }
   
-  .footer_photo {
-    opacity: 0.20;
-    width: 45%;
-    position: absolute;
-    left: 30vmax;
-    bottom: 0;
+  .footer::after {
+    background-image: url("../img/hat%20footer_1920.png"); 
   }
   
   .footer_form_background .name {
@@ -959,12 +973,8 @@ h1 {
     max-width: 1440px;
   }
   
-  .footer_photo {
-    opacity: 0.20;
-    width: 48%;
-    position: absolute;
-    left: 28vmax;
-    bottom: 0;
+  .footer::after {
+    background-image: url("../img/hat%20footer_1200.png"); 
   }
   
   .footer_form_background .name {
@@ -1008,12 +1018,8 @@ h1 {
     max-width: 1024px;
   }
   
-  .footer_photo {
-    opacity: 0.20;
-    width: 38%;
-    position: absolute;
-    left: 35vmin;
-    bottom: 0;
+  .footer::after {
+    background-image: url("../img/hat%20footer_960.png"); 
   }
   
   .footer_form_background .name {
@@ -1057,12 +1063,8 @@ h1 {
     max-width: 640px;
   }
   
-  .footer_photo {
-    opacity: 0.20;
-    width: 35%;
-    position: absolute;
-    left: 35vmin;
-    bottom: 0;
+  .footer::after {
+    background-image: url("../img/hat%20footer_640.png"); 
   }
   
   .footer_form_background .name {
@@ -1106,12 +1108,8 @@ h1 {
     max-width: 320px;
   }
   
-  .footer_photo {
-    opacity: 0.20;
-    width: 38%;
-    position: absolute;
-    left: 35vmin;
-    bottom: 0;
+  .footer::after {
+    background-image: url("../img/hat%20footer_320.png"); 
   }
   
   .footer_form_background .name {
