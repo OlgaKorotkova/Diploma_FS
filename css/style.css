@@ -138,8 +138,9 @@ h1 {
     width: 19vmax;
     height: 4vmax;
     box-shadow: 0 0 7px 2px #262525;
-    font-size: 1.3vmax;
+    font-size: 1.7vmax;
     letter-spacing: 0.1vmax;
+    padding: 0.5vmax 0.8vmax;
   }
 }
 
@@ -180,14 +181,10 @@ h1 {
   .button {
     width: 19vmax;
     height: 4vmax;
-    left: 41vmax;
-    bottom: 4vmax;
     box-shadow: 0 0 7px 2px #262525;
-  }
-  
-  .button a {
     font-size: 2.08vmax;
     letter-spacing: 0.1vmax;
+    padding: 0.5vmax 0.8vmax;
   }
 }
 
@@ -228,14 +225,10 @@ h1 {
   .button {
     width: 18.1vmin;
     height: 6vmin;
-    left: 41vmin;
-    bottom: 2.6vmin;
     box-shadow: 0 0 5px 1px #262525;
-  }
-  
-  .button a {
     font-size: 1.7vmin;
     letter-spacing: 0.1vmin;
+    padding: 0.5vmin 0.8vmin;
   }
 }
 
@@ -276,12 +269,8 @@ h1 {
   .button {
     width: 18.75vmin;
     height: 5.4vmin;
-    left: 42vmin;
-    bottom: 3.1vmin;
+    padding: 0.5vmin 0.8vmin;
     box-shadow: 0 0 5px 1px #262525;
-  }
-  
-  .button a {
     font-size: 1.6vmin;
     letter-spacing: 0.1vmin;
   }
@@ -324,12 +313,8 @@ h1 {
   .button {
     width: 30vmin;
     height: 7vmin;
-    left: 35vmin;
-    bottom: 5vmin;
     box-shadow: 0 0 5px 1px #262525;
-  }
-  
-  .button a {
+    padding: 0.5vmin 0.8vmin;
     font-size: 2.5vmin;
     letter-spacing: 0.1vmin;
   }
