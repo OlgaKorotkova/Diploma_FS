@@ -394,8 +394,8 @@ header_name {
   
   .special_header {
     font-size: 13vmax;
-    margin-top: 0;
-    margin-left: 26vmax;
+    margin-top: 1vmax;
+    margin-left: -14vmax;
     z-index: 1;
   }
   
@@ -409,8 +409,8 @@ header_name {
   .square_special {
     height: 58vmax;
     width: 28vmax;
-    margin-left: 19vmax;
-    margin-top: 7vmax;
+    margin-left: 12vmax;
+    margin-top: 2vmax;
   }
   
   .hat_casual {
@@ -419,7 +419,8 @@ header_name {
   }
   
   .hat_special {
-    margin-top: 15vmax;
+    margin-top: 9vmax;
+    margin-left: -5vmax;
   }
   
   .order_casual {
@@ -434,8 +435,8 @@ header_name {
   .order_special {
     width: 23vmax;
     height: 9.5vmax;
-    margin-left: 56.5vmax;
-    margin-top: 43vmax;
+    margin-left: 6vmax;
+    margin-top: -10vmax;
     box-shadow: 0 0 7px 2px #262525;
     font-size: 2.6vmax;
   }
@@ -450,7 +451,7 @@ header_name {
   .special_collection {
     font-size: 2.35vmax;
     letter-spacing: 0.13vmax;
-    margin-left: 45vmax;
+    margin-left: 6vmax;
     margin-top: 17vmax;
   }
 }
