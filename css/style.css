@@ -313,31 +313,33 @@ h1 {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
 }
 
-.casual h2, .special h2 {
+.casual_left, .casual_right {
+  width: 49.5%;
+}
+
+.casual_header, .special_header {
   font-family: "Anglecia Pro Display", serif;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: normal;
   color: #262525;
-  position: absolute;
+  
 }
 
 .order_casual, .order_special {
   background-color: #59314f;
   border: none;
   text-transform: uppercase;
-  text-align: center;
-  vertical-align: middle;
   appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
-  position: absolute;
-}
-
-.order_casual a, .order_special a {
   text-decoration: none;
   color: #e5e5e5;
 }
@@ -354,17 +356,11 @@ h1 {
 .casual_collection, .special_collection {
   text-transform: uppercase;
   color: #262525;
-  position: absolute;
   font-weight: bold;
 }
 
 .square_casual, .square_special {
   background-color: #bbb5bf;
-  position: absolute;
-}
-
-.hat_casual, .hat_special {
-  position: absolute;
 }
 
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
@@ -382,76 +378,72 @@ h1 {
     padding: 5vmax;
   }
   
-  .casual h2 {
+  .casual_header {
     font-size: 13vmax;
-    top: 31vmax;
-    left: 11.6vmax;
+    margin-top: 31vmax;
+    margin-left: 11.6vmax;
     z-index: 1;
   }
   
-  .special h2 {
+  .special_header {
     font-size: 13vmax;
-    top: 26vmax;
-    left: 36.6vmax;
+    margin-top: 26vmax;
+    margin-eft: 36.6vmax;
     z-index: 1;
   }
   
   .square_casual {
     height: 51vmax;
     width: 28vmax;
-    left: 50.5vmax;
-    top: 10vmax;
+    margin-left: 50.5vmax;
+    margin-top: 10vmax;
   }
   
   .square_special {
     height: 58vmax;
     width: 28vmax;
-    left: 19vmax;
-    top: 7vmax;
+    margin-left: 19vmax;
+    margin-top: 7vmax;
   }
   
   .hat_casual {
-    left: 44vmax;
-    top: 30vmax;
+    margin-top: 30vmax;
   }
   
   .hat_special {
-    left: 13vmax;
-    top: 15vmax;
+    margin-top: 15vmax;
   }
   
   .order_casual {
     width: 23vmax;
     height: 9.5vmax;
-    left: 12vmax;
-    top: 48vmax;
+    margin-left: 12vmax;
+    margin-top: 48vmax;
     box-shadow: 0 0 7px 2px #262525;
+    font-size: 2.6vmax;
   }
   
   .order_special {
     width: 23vmax;
     height: 9.5vmax;
-    left: 56.5vmax;
-    top: 43vmax;
+    margin-left: 56.5vmax;
+    margin-top: 43vmax;
     box-shadow: 0 0 7px 2px #262525;
-}
-  
-  .order_casual a, .order_special a {
     font-size: 2.6vmax;
   }
   
   .casual_collection {
     font-size: 2.35vmax;
-    top: 29vmax;
-    left: 12vmax;
+    margin-top: 29vmax;
+    margin-left: 12vmax;
     letter-spacing: 0.13vmax;
   }
   
   .special_collection {
     font-size: 2.35vmax;
     letter-spacing: 0.13vmax;
-    left: 55.6vmax;
-    top: 22vmax;
+    margin-left: 55.6vmax;
+    margin-top: 22vmax;
   }
 }
 
