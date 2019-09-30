@@ -81,17 +81,14 @@ h1 {
   background-color: #59314f;
   border: none;
   text-transform: uppercase;
-  text-align: center;
-  vertical-align: middle;
   appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
-  position: absolute;
-}
-
-.button a {
-  text-decoration: none;
   color: #e5e5e5;
+  text-decoration: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button:hover {
@@ -140,12 +137,7 @@ h1 {
    .button {
     width: 19vmax;
     height: 4vmax;
-    left: 41vmax;
-    bottom: 4vmax;
     box-shadow: 0 0 7px 2px #262525;
-  }
-  
-  .button a {
     font-size: 1.3vmax;
     letter-spacing: 0.1vmax;
   }
