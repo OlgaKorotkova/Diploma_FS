@@ -103,19 +103,17 @@ h1 {
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
   h1 {
     font-size: 5.729vmax;
-    padding-top: 13vmax;
-    padding-bottom: 19vmax;
+    margin-top: 13vmax;
+    margin-bottom: 15vmax;
     line-height: 1em;
-  }
-
-  .first_line {
-    display: block;
-    padding-left: 11vmax;
+    width: 78vmax;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .second_line {
     display: block;
-    padding-left: 33vmax;
+    padding-left: 22vmax;
   }
 
   .logo_header {
@@ -148,13 +146,9 @@ h1 {
   h1 {
     font-size: 6.8vmax;
     line-height: 1em;
-    padding-top: 17vmax;
-    padding-bottom: 37vmax;
-  }
-  
-  .first_line {
-    display: block;
-    text-align: center;
+    margin-top: 17vmax;
+    margin-bottom: 37vmax;
+    width: 78vmax;
   }
 
   .second_line {
@@ -192,13 +186,9 @@ h1 {
   h1 {
     font-size: 6.8vmin;
     line-height: 1em;
-    padding-top: 9vmin;
-    padding-bottom: 15vmin;
-  }
-  
-  .first_line {
-    display: block;
-    text-align: center;
+    margin-top: 9vmin;
+    margin-bottom: 15vmin;
+    width: 78vmin;
   }
 
   .second_line {
@@ -236,13 +226,9 @@ h1 {
   h1 {
     font-size: 6vmin;
     line-height: 1em;
-    padding-top: 7.5vmin;
-    padding-bottom: 18vmin;
-  }
-  
-  .first_line {
-    display: block;
-    text-align: center;
+    margin-top: 7.5vmin;
+    margin-bottom: 18vmin;
+    width: 78vmin;
   }
 
   .second_line {
@@ -280,13 +266,9 @@ h1 {
   h1 {
     font-size: 7.8vmin;
     line-height: 1em;
-    padding-top: 11vmin;
-    padding-bottom: 25vmin;
-  }
-  
-  .first_line {
-    display: block;
-    text-align: center;
+    margin-top: 11vmin;
+    margin-bottom: 25vmin;
+    width: 78vmin;
   }
 
   .second_line {
