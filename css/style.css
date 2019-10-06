@@ -848,6 +848,17 @@ body {
   display: block;
 }
 
+.footer_form_background {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 3vmax;
+  box-sizing: border-box;
+}
+
+
+
 .footer_form_background .name, .footer_form_background .email {
   text-transform: uppercase;
   color: #262525;
@@ -855,7 +866,6 @@ body {
   font-family: "Manrope", sans-serif;
   box-sizing: border-box;
   margin-left: auto;
-  position: absolute;
 }
 
 .footer_form_background .footer_button {
@@ -898,12 +908,15 @@ body {
     background-image: url("../img/hat%20footer_1920.png"); 
   }
   
+  .footer_form_background {
+    margin-top: 10vmax;
+    margin-bottom: 10vmax;
+  }
+  
   .footer_form_background .name {
     font-size: 0.729vmax;
     width: 19vmax;
     line-height: 5.5em;
-    top: 25.5vmax;
-    left: 18vmax;
     padding: 0.5vmax;
   }
   
@@ -911,15 +924,11 @@ body {
     font-size: 0.729vmax;
     width: 19vmax;
     line-height: 5.5em;
-    top: 25.5vmax;
-    left: 38vmax;
     padding: 0.5vmax;
   }
   
   .footer_form_background .footer_button {
     font-size: 1.35vmax;
-    left: 58vmax;
-    top: 25.5vmax;
     width: 19vmax;
     line-height: 3em;
     letter-spacing: 0.06vmax;
