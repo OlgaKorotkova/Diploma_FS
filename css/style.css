@@ -101,7 +101,7 @@ body {
 
 .button:focus {
   background-color: #2f4f4f;
-  border: 0.5vmax solid #ffffff;
+  border: 2px solid #ffffff;
 }
 
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
@@ -359,8 +359,9 @@ body {
   border: none;
 }
 
-.order_casual:hover:active, .order_special:hover:active, .button:active {
+.order_casual:focus, .order_special:focus, .button:focus {
   background-color: #2f4f4f;
+  border: 2px solid #ffffff;
 }
 
 .casual_collection, .special_collection {
@@ -843,6 +844,7 @@ body {
   background-position: bottom center;
   background-repeat: no-repeat;
   bottom: 0;
+  z-index: -1;
 }
 
 .logo_footer {
@@ -894,9 +896,9 @@ body {
   background: #2f4f4f;
 }
 
-.footer_form_background .footer_button:hover:active,
-.footer_form_background .footer_button:active {
+.footer_form_background .footer_button:focus {
   background-color: #2f4f4f;
+  border: 2px solid #ffffff;
 }
 
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
@@ -911,6 +913,7 @@ body {
     width: 100%;
     max-width: 1920px;
     padding: 5vmax;
+    opacity: 0.90;
   }
   
   .footer::after {
