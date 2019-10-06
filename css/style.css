@@ -857,7 +857,14 @@ body {
   box-sizing: border-box;
 }
 
-
+.footer_form {
+  display: flex;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+}
 
 .footer_form_background .name, .footer_form_background .email {
   text-transform: uppercase;
@@ -911,6 +918,10 @@ body {
   .footer_form_background {
     margin-top: 10vmax;
     margin-bottom: 10vmax;
+  }
+  
+  .footer_form {
+    padding: 2vmax;
   }
   
   .footer_form_background .name {
