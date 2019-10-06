@@ -47,7 +47,6 @@ body {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  display: block;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -100,7 +99,7 @@ body {
 
 .button:focus {
   background-color: #2f4f4f;
-  border: 1px solid #ffffff;
+  border: 0.5vmax solid #ffffff;
 }
 
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
