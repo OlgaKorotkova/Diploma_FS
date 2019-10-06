@@ -98,8 +98,9 @@ body {
   border: none;
 }
 
-.button:hover:active, .button:active {
+.button:focus {
   background-color: #2f4f4f;
+  border: 1px solid #ffffff;
 }
 
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
