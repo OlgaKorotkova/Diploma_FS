@@ -154,11 +154,14 @@ body {
     margin-top: 17vmax;
     margin-bottom: 37vmax;
     width: 78vmax;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5vmax;
   }
 
   .second_line {
     display: block;
-    text-align: center;
   }
   
   .logo_header {
@@ -326,10 +329,12 @@ body {
 
 .casual_left, .casual_right {
   width: 49.5%;
+  display: block;
 }
 
 .special_left, .special_right {
   width: 49.5%;
+  display: block;
 }
 
 .casual_header, .special_header {
@@ -372,20 +377,19 @@ body {
 
 .square_casual, .square_special {
   background-color: #bbb5bf;
+  display: block;
 }
 
 @media (min-width: 1441px) and (max-width: 1920px), (min-width: 1921px) {
   .casual {
     width: 100%;
     max-width: 1920px;
-    min-height: 72vmax;
     padding: 5vmax;
   }
   
   .special {
     width: 100%;
     max-width: 1920px;
-    min-height: 72vmax;
     padding: 5vmax;
   }
   
@@ -467,22 +471,18 @@ body {
   .casual {
     width: 100%;
     max-width: 1440px;
-    min-height: 115vmax;
-    padding: 10vmax;
+    padding: 6vmax;
   }
   
   .special {
     width: 100%;
     max-width: 1440px;
-    min-height: 115vmax;
-    padding: 10vmax;
+    padding: 6vmax;
   }
   
-  .casual h2 {
+  .casual_header {
     font-size: 14.9vmax;
-    top: 39vmax;
-    left: 6vmax;
-    z-index: 1;
+    line-height: 1;
   }
   
   .special h2 {
@@ -494,34 +494,32 @@ body {
   
   .square_casual {
     height: 81vmax;
-    width: 43vmax;
-    left: 52vmax;
-    top: 16vmax;
+    width: 40vmax;
+    margin-left: 5vmax;
   }
   
   .square_special {
     height: 81vmax;
-    width: 43vmax;
-    left: 10vmax;
-    top: 4vmax;
+    width: 40vmax;
+    margin-left: 10vmax;
   }
   
   .hat_casual {
-    left: 44vmax;
-    top: 36vmax;
+    margin-top: 29vmax;
   }
   
   .hat_special {
-    left: 3vmax;
-    top: 22vmax;
+    margin-left: 3vmax;
+    margin-top: 22vmax;
   }
   
   .order_casual {
     width: 29vmax;
     height: 11vmax;
-    left: 12vmax;
-    top: 57vmax;
+    margin-left: 12vmax;
     box-shadow: 0 0 7px 2px #262525;
+    font-size: 3vmax;
+    letter-spacing: 0.1vmax;
   }
   
   .order_special {
@@ -536,10 +534,13 @@ body {
     font-size: 3.5vmax;
   }
   
+  .casual_left {
+    padding-top: 35.5vmax;
+  }
+  
   .casual_collection {
-    font-size: 3.56vmax;
-    top: 35.5vmax;
-    left: 12vmax;
+    font-size: 3vmax;
+    margin-left: 12vmax;
     letter-spacing: 0.13vmax;
   }
   
