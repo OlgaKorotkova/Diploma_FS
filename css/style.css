@@ -198,11 +198,13 @@ body {
     margin-top: 9vmin;
     margin-bottom: 15vmin;
     width: 78vmin;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 
   .second_line {
     display: block;
-    text-align: center;
   }
   
   .logo_header {
@@ -238,12 +240,14 @@ body {
     line-height: 1em;
     margin-top: 7.5vmin;
     margin-bottom: 18vmin;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     width: 78vmin;
   }
 
   .second_line {
     display: block;
-    text-align: center;
   }
   
   .logo_header {
@@ -279,12 +283,14 @@ body {
     line-height: 1em;
     margin-top: 11vmin;
     margin-bottom: 25vmin;
+    margin-left: auto;
+    margin-right: auto;
     width: 78vmin;
+    text-align: center;
   }
 
   .second_line {
     display: block;
-    text-align: center;
   }
   
   .logo_header {
