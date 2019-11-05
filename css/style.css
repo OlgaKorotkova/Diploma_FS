@@ -446,9 +446,12 @@ body {
     font-size: 2.6vmax;
   }
   
+  .casual_left {
+    margin-top: 24vmax;
+  }
+  
   .casual_collection {
     font-size: 2.35vmax;
-    margin-top: 24vmax;
     margin-left: 6vmax;
     letter-spacing: 0.13vmax;
   }
