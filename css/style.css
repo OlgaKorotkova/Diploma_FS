@@ -491,11 +491,10 @@ body {
     line-height: 1;
   }
   
-  .special h2 {
+  .special_header {
     font-size: 14.9vmax;
-    top: 34vmax;
-    left: 44vmax;
-    z-index: 1;
+    margin-left: 44vmax;
+    line-height: 1;
   }
   
   .square_casual {
@@ -531,8 +530,7 @@ body {
   .order_special {
     width: 29vmax;
     height: 11vmax;
-    left: 57vmax;
-    top: 54vmax;
+    margin-left: 57vmax;
     box-shadow: 0 0 7px 2px #262525;
 }
   
@@ -551,10 +549,9 @@ body {
   }
   
   .special_collection {
-    font-size: 3.56vmax;
+    font-size: 3vmax;
     letter-spacing: 0.13vmax;
-    left: 54vmax;
-    top: 32vmax;
+    margin-left: 5vmax;
   }
 }
 
