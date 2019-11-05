@@ -392,7 +392,7 @@ body {
   
   .casual_header {
     font-size: 13vmax;
-    margin-top: -1vmax;
+    line-height: 1;
     margin-left: 4vmax;
     z-index: 1;
   }
@@ -870,7 +870,7 @@ body {
   flex-wrap: nowrap;
   box-sizing: border-box;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 80%;
 }
 
@@ -915,7 +915,10 @@ body {
     background-size: cover;
     width: 100%;
     max-width: 1920px;
-    padding: 5vmax;
+    padding-top: 10vmax;
+    padding-bottom: 5vmax;
+    padding-left: 5vmax;
+    padding-right: 5vmax;
     opacity: 0.90;
   }
   
@@ -924,7 +927,6 @@ body {
   }
   
   .footer_form_background {
-    margin-top: 10vmax;
     margin-bottom: 10vmax;
   }
   
