@@ -492,7 +492,6 @@ body {
   
   .special_header {
     font-size: 14.9vmax;
-    margin-left: 44vmax;
     line-height: 1;
   }
   
@@ -531,11 +530,10 @@ body {
     height: 11vmax;
     margin-left: 57vmax;
     box-shadow: 0 0 7px 2px #262525;
+    margin-top: 1vmax;
+    font-size: 3vmax;
+    letter-spacing: 0.1vmax;
 }
-  
-  .order_casual a, .order_special a {
-    font-size: 3.5vmax;
-  }
   
   .casual_left {
     padding-top: 35.5vmax;
@@ -554,7 +552,8 @@ body {
   .special_collection {
     font-size: 3vmax;
     letter-spacing: 0.13vmax;
-    margin-left: 5vmax;
+    margin-left: 13vmax;
+    text-align: right;
   }
 }
 
