@@ -662,12 +662,15 @@ body {
     width: 100%;
     max-width: 640px;
     min-height: 75vmin;
-    padding-bottom: 5vmin;
   }
   
   .casual_left {
     padding-top: 37vmin;
     padding-left: 15vmin;
+  }
+  
+  .casual_right {
+    padding-top: 12vmin;
   }
   
   .special {
@@ -679,10 +682,13 @@ body {
   
   .casual_header {
     font-size: 9.4vmin;
+    line-height: 1;
   }
   
   .special_header {
     font-size: 9.4vmin;
+    line-height: 1;
+    margin-left: -13vmin;
   }
   
   .square_casual {
@@ -709,15 +715,21 @@ body {
   }
   
   .special_right {
-    padding-top: 15vmin;
+    padding-top: 25vmin;
   }
   
+  .special_left {
+    padding-top: 8vmin;
+    padding-left: 8vmin;
+  }
+    
   .order_casual {
     width: 22vmin;
     height: 10vmin;
     font-size: 3vmin;
     letter-spacing: 0.1vmin;
     box-shadow: 0 0 7px 2px #262525;
+    margin-left: 3vmin;
   }
   
   .order_special {
@@ -726,16 +738,20 @@ body {
     font-size: 3vmin;
     letter-spacing: 0.1vmin;
     box-shadow: 0 0 7px 2px #262525;
+    margin-left: -9vmin;
+    margin-top: 1vmin;
 }
   
   .casual_collection {
     font-size: 2.5vmin;
     letter-spacing: 0.13vmin;
+    margin-left: 3vmin;
   }
   
   .special_collection {
     font-size: 2.5vmin;
     letter-spacing: 0.13vmin;
+    margin-left: -10vmin;
   }
 }
 
