@@ -392,13 +392,13 @@ body {
     width: 100%;
     max-width: 1920px;
     padding-bottom: 5vmax;
-    padding-top: 5vmax;
   }
   
   .special {
     width: 100%;
     max-width: 1920px;
     padding-bottom: 5vmax;
+    padding-top: 5vmax;
   }
   
   .casual_header {
@@ -418,15 +418,12 @@ body {
   .square_casual {
     height: 51vmax;
     width: 28vmax;
-    margin-left: 1vmax;
-    margin-top: 5vmax;
   }
   
   .square_special {
     height: 58vmax;
     width: 28vmax;
     margin-left: 12vmax;
-    margin-top: 2vmax;
   }
   
   .hat_casual {
@@ -458,11 +455,15 @@ body {
   }
   
   .casual_left {
-    padding-top: 24vmax;
+    padding-top: 32vmax;
   }
   
   .casual_right {
-    padding-top: 17vmax;
+    padding-top: 10vmax;
+  }
+  
+  .special_right {
+    padding-top: 16vmax;
   }
   
   .casual_collection {
