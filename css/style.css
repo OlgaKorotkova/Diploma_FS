@@ -598,6 +598,11 @@ body {
   
   .casual_left {
     padding-left: 17vmin;
+    padding-top: 22vmin;
+  }
+  
+  .casual_right {
+    padding-top: 17vmin;
   }
   
   .hat_casual {
@@ -632,7 +637,6 @@ body {
   
   .casual_collection {
     font-size: 2vmin;
-    margin-top: 22vmin;
     margin-left: 3vmin;
     letter-spacing: 0.13vmin;
   }
@@ -640,8 +644,7 @@ body {
   .special_collection {
     font-size: 2vmin;
     letter-spacing: 0.13vmin;
-    left: 41vmin;
-    top: 12vmin;
+    margin-left: 4vmin;
   }
 }
 
