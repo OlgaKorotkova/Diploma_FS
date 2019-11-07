@@ -760,84 +760,72 @@ body {
     width: 100%;
     max-width: 320px;
     min-height: 124vmin;
-    padding: 10vmin;
   }
   
   .special {
     width: 100%;
     max-width: 320px;
     min-height: 124vmin;
-    padding: 10vmin;
   }
   
-  .casual h2 {
+  .casual_header {
     font-size: 12vmin;
-    top: 50vmin;
-    left: 19vmin;
+    margin-top: 5vmin;
+    margin-left: 9vmin;
   }
   
-  .special h2 {
+  .special_header {
     font-size: 12vmin;
-    top: 54vmin;
-    left: 39vmin;
+    margin-top: 5vmin;
+    margin-left: 3vmin;
   }
   
   .square_casual {
     height: 68vmin;
     width: 34vmin;
-    left: 56vmin;
-    top: 19vmin;
   }
   
   .square_special {
     height: 82vmin;
     width: 38vmin;
-    left: 3vmin;
-    top: 0vmin;
   }
   
   .hat_casual {
-    left: 50vmin;
-    top: 42vmin;
+    margin-top: 42vmin;
   }
   
   .hat_special {
-    left: 6vmin;
-    top: 25vmin;
+    margin-top: 25vmin;
   }
   
   .order_casual {
     width: 36vmin;
     height: 16vmin;
-    left: 55vmin;
-    top: 89vmin;
+    margin-left: 5vmin;
     box-shadow: 0 0 7px 2px #262525;
+    font-size: 4.5vmin;
+    letter-spacing: 0.1vmin;
   }
   
   .order_special {
     width: 36vmin;
     height: 16vmin;
-    left: 11vmin;
-    top: 85vmin;
+    margin-left: 11vmin;
     box-shadow: 0 0 7px 2px #262525;
-}
-  
-  .order_casual a, .order_special a {
     font-size: 4.5vmin;
-  }
+    letter-spacing: 0.1vmin;
+}
   
   .casual_collection {
     font-size: 3.7vmin;
-    top: 43vmin;
-    left: 19vmin;
+    margin-left: 9vmin;
     letter-spacing: 0.20vmin;
   }
   
   .special_collection {
     font-size: 3.7vmin;
     letter-spacing: 0.20vmin;
-    left: 41vmin;
-    top: 48vmin;
+    margin-left: 4vmin;
   }
 }
 
