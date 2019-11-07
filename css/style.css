@@ -567,6 +567,7 @@ body {
   .special {
     width: 100%;
     max-width: 1024px;
+    padding-bottom: 5vmin;
   }
   
   .casual_header {
@@ -576,8 +577,7 @@ body {
   
   .special_header {
     font-size: 8.3vmin;
-    margin-top: 14vmin;
-    margin-left: 5vmin;
+    line-height: 1;
   }
   
   .square_casual {
@@ -601,10 +601,11 @@ body {
   
   .special_left {
     padding-top: 17vmin;
+    padding-left: 17vmin;
   }
   
   .special_right {
-    padding-top: 25vmin;
+    padding-top: 32vmin;
   }
   
   .hat_casual {
@@ -612,7 +613,8 @@ body {
   }
   
   .hat_special {
-    margin-top: 2vmin;
+    margin-top: 9vmin;
+    margin-left: 5vmin;
   }
   
   .order_casual {
@@ -628,11 +630,11 @@ body {
   .order_special {
     width: 21vmin;
     height: 8vmin;
-    left: 13vmin;
-    top: 44vmin;
+    margin-left: 4vmin;
+    margin-top: 1vmin;
     box-shadow: 0 0 7px 2px #262525;
-    z-index: 1;
-   
+    font-size: 3vmin;
+    letter-spacing: 0.1vmin;  
 }
   
   .casual_collection {
@@ -1012,8 +1014,6 @@ body {
   .logo_footer {
     width: 3%;
     height: 4%;
-    padding-bottom: 2%;
-    padding-top: 48%;
   }
 
   .footer {
@@ -1021,10 +1021,15 @@ body {
     background-size: cover;
     width: 100%;
     max-width: 1024px;
+    padding-top: 17vmin;
   }
   
   .footer::after {
     background-image: url("../img/hat%20footer_960.png"); 
+  }
+  
+  .footer_form_background {
+    margin-bottom: 10vmin;
   }
   
   .footer_form_background .name {
