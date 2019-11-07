@@ -594,12 +594,11 @@ body {
   
   .casual_left {
     padding-left: 17vmin;
-    padding-top: 32vmin;
+    padding-top: 25vmin;
   }
   
   .casual_right {
-    padding-top: 17vmin;
-    padding-left: 17vmin;
+    padding-top: 10vmin;
   }
   
   .hat_casual {
