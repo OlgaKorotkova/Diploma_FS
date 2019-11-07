@@ -482,11 +482,14 @@ body {
   .casual {
     width: 100%;
     max-width: 1440px;
+    padding-top: 5vmax;
+    padding-bottom: 5vmax;
   }
   
   .special {
     width: 100%;
     max-width: 1440px;
+    padding-bottom: 5vmax;
   }
   
   .casual_header {
