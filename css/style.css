@@ -561,29 +561,25 @@ body {
   .casual {
     width: 100%;
     max-width: 1024px;
-    min-height: 59vmin;
     padding: 5vmin;
   }
   
   .special {
     width: 100%;
     max-width: 1024px;
-    min-height: 59vmin;
     padding: 5vmin;
   }
   
-  .casual h2 {
+  .casual_header {
     font-size: 8.3vmin;
-    top: 24vmin;
-    left: 42vmin;
-    z-index: 1;
+    margin-top: 24vmin;
+    margin-left: 4vmin;
   }
   
-  .special h2 {
+  .special_header {
     font-size: 8.3vmin;
-    top: 14vmin;
-    left: 35vmin;
-    z-index: 1;
+    margin-top: 14vmin;
+    margin-left: 5vmin;
   }
   
   .square_casual {
@@ -602,14 +598,14 @@ body {
   
   .hat_casual {
     width: 45%;
-    left: 58vmin;
-    top: 17vmin;
+    margin-left: 8vmin;
+    margin-top: 17vmin;
   }
   
   .hat_special {
     width: 30%;
-    left: 8vmin;
-    top: -2vmin;
+    margin-left: 8vmin;
+    margin-top: 2vmin;
   }
   
   .order_casual {
