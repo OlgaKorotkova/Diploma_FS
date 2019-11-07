@@ -572,8 +572,8 @@ body {
   
   .casual_header {
     font-size: 8.3vmin;
-    margin-top: 24vmin;
     margin-left: 4vmin;
+    line-height: 1;
   }
   
   .special_header {
@@ -611,9 +611,10 @@ body {
   .order_casual {
     width: 21vmin;
     height: 8vmin;
-    left: 71vmin;
-    top: 59vmin;
+    margin-left: 7vmin;
     box-shadow: 0 0 7px 2px #262525;
+    font-size: 3vmin;
+    letter-spacing: 0.1vmin;
   }
   
   .order_special {
@@ -626,14 +627,10 @@ body {
    
 }
   
-  .order_casual a, .order_special a {
-    font-size: 3vmin;
-  }
-  
   .casual_collection {
     font-size: 2vmin;
-    top: 22vmin;
-    left: 44vmin;
+    margin-top: 22vmin;
+    margin-left: 7vmin;
     letter-spacing: 0.13vmin;
   }
   
