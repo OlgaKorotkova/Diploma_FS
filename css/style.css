@@ -335,6 +335,7 @@ body {
 .casual_left, .casual_right {
   width: 49.5%;
   display: block;
+  box-sizing: border-box;
 }
 
 .special_left, .special_right {
@@ -572,7 +573,6 @@ body {
   
   .casual_header {
     font-size: 8.3vmin;
-    margin-left: 4vmin;
     line-height: 1;
   }
   
@@ -596,6 +596,10 @@ body {
     top: -10vmin;
   }
   
+  .casual_left {
+    padding-left: 17vmin;
+  }
+  
   .hat_casual {
     width: 45%;
     margin-left: 8vmin;
@@ -611,7 +615,8 @@ body {
   .order_casual {
     width: 21vmin;
     height: 8vmin;
-    margin-left: 7vmin;
+    margin-left: 2vmin;
+    margin-top: 3vmin;
     box-shadow: 0 0 7px 2px #262525;
     font-size: 3vmin;
     letter-spacing: 0.1vmin;
@@ -630,7 +635,7 @@ body {
   .casual_collection {
     font-size: 2vmin;
     margin-top: 22vmin;
-    margin-left: 7vmin;
+    margin-left: 3vmin;
     letter-spacing: 0.13vmin;
   }
   
