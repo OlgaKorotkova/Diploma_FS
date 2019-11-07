@@ -781,6 +781,10 @@ body {
     padding-top: 27vmin;
   }
   
+  .special_left {
+    padding-left: 9vmin;
+  }
+  
   .casual_header {
     font-size: 12vmin;
     margin-top: 5vmin;
