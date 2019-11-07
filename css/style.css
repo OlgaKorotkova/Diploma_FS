@@ -194,8 +194,8 @@ body {
   .header_name {
     font-size: 6.8vmin;
     line-height: 1em;
-    margin-top: 9vmin;
-    margin-bottom: 15vmin;
+    margin-top: 8vmin;
+    margin-bottom: 8vmin;
     width: 78vmin;
     margin-left: auto;
     margin-right: auto;
@@ -224,8 +224,8 @@ body {
   }
   
   .button {
-    width: 18.1vmin;
-    height: 6vmin;
+    width: 18vmin;
+    height: 5vmin;
     box-shadow: 0 0 5px 1px #262525;
     font-size: 1.7vmin;
     letter-spacing: 0.1vmin;
