@@ -639,7 +639,6 @@ body {
     top: 22vmin;
     left: 44vmin;
     letter-spacing: 0.13vmin;
-    z-index: 1;
   }
   
   .special_collection {
@@ -647,7 +646,6 @@ body {
     letter-spacing: 0.13vmin;
     left: 41vmin;
     top: 12vmin;
-    z-index: 1;
   }
 }
 
@@ -670,14 +668,12 @@ body {
     font-size: 9.4vmin;
     top: 30vmin;
     left: 26vmin;
-    z-index: 1;
   }
   
   .special h2 {
     font-size: 9.4vmin;
     top: 23vmin;
     left: 48vmin;
-    z-index: 1;
   }
   
   .square_casual {
@@ -758,14 +754,12 @@ body {
     font-size: 12vmin;
     top: 50vmin;
     left: 19vmin;
-    z-index: 1;
   }
   
   .special h2 {
     font-size: 12vmin;
     top: 54vmin;
     left: 39vmin;
-    z-index: 1;
   }
   
   .square_casual {
@@ -817,7 +811,6 @@ body {
     top: 43vmin;
     left: 19vmin;
     letter-spacing: 0.20vmin;
-    z-index: 1;
   }
   
   .special_collection {
@@ -825,7 +818,6 @@ body {
     letter-spacing: 0.20vmin;
     left: 41vmin;
     top: 48vmin;
-    z-index: 1;
   }
 }
 
@@ -852,7 +844,6 @@ body {
   background-position: bottom center;
   background-repeat: no-repeat;
   bottom: 0;
-  z-index: -1;
 }
 
 .logo_footer {
@@ -866,7 +857,6 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  padding: 3vmax;
   box-sizing: border-box;
 }
 
@@ -933,6 +923,7 @@ body {
   
   .footer_form_background {
     margin-bottom: 10vmax;
+    padding: 3vmax;
   }
   
   .footer_form {
@@ -975,10 +966,23 @@ body {
     background-size: cover;
     width: 100%;
     max-width: 1440px;
+    padding-top: 10vmax;
+    padding-bottom: 5vmax;
+    padding-left: 5vmax;
+    padding-right: 5vmax;
   }
   
   .footer::after {
     background-image: url("../img/hat%20footer_1200.png"); 
+  }
+  
+  .footer_form {
+    padding: 2vmax;
+  }
+  
+  .footer_form_background {
+    padding: 3vmax;
+    margin-bottom: 8vmax;
   }
   
   .footer_form_background .name {
