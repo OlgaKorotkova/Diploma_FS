@@ -341,6 +341,7 @@ body {
 .special_left, .special_right {
   width: 49.5%;
   display: block;
+  box-sizing: border-box;
 }
 
 .casual_header, .special_header {
@@ -390,13 +391,11 @@ body {
   .casual {
     width: 100%;
     max-width: 1920px;
-    padding: 5vmax;
   }
   
   .special {
     width: 100%;
     max-width: 1920px;
-    padding: 5vmax;
   }
   
   .casual_header {
@@ -459,6 +458,10 @@ body {
     padding-top: 24vmax;
   }
   
+  .casual_right {
+    padding-top: 17vmax;
+  }
+  
   .casual_collection {
     font-size: 2.35vmax;
     margin-left: 6vmax;
@@ -469,7 +472,6 @@ body {
     font-size: 2.35vmax;
     letter-spacing: 0.13vmax;
     margin-left: 6vmax;
-    margin-top: 17vmax;
   }
 }
 
@@ -477,13 +479,11 @@ body {
   .casual {
     width: 100%;
     max-width: 1440px;
-    padding: 6vmax;
   }
   
   .special {
     width: 100%;
     max-width: 1440px;
-    padding: 6vmax;
   }
   
   .casual_header {
