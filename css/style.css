@@ -957,8 +957,6 @@ body {
   .logo_footer {
     width: 3%;
     height: 4%;
-    padding-bottom: 2%;
-    padding-top: 48%;
   }
 
   .footer {
@@ -966,7 +964,7 @@ body {
     background-size: cover;
     width: 100%;
     max-width: 1440px;
-    padding-top: 10vmax;
+    padding-top: 12vmax;
     padding-bottom: 5vmax;
     padding-left: 5vmax;
     padding-right: 5vmax;
@@ -982,7 +980,7 @@ body {
   
   .footer_form_background {
     padding: 3vmax;
-    margin-bottom: 8vmax;
+    margin-bottom: 12vmax;
   }
   
   .footer_form_background .name {
