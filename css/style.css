@@ -1030,29 +1030,26 @@ body {
   
   .footer_form_background {
     margin-bottom: 10vmin;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vmin;
   }
   
   .footer_form_background .name {
     font-size: 1.25vmin;
-    width: 17vmin;
+    width: 33%;
     line-height: 3em;
-    top: 23vmin;
-    left: 19vmin;
   }
   
   .footer_form_background .email {
     font-size: 1.25vmin;
-    width: 17vmin;
+    width: 33%;
     line-height: 3em;
-    top: 23vmin;
-    left: 37vmin;
   }
   
   .footer_form_background .footer_button {
     font-size: 1.25vmin;
-    left: 55vmin;
-    top: 23vmin;
-    width: 17vmin;
+    width: 33%;
     line-height: 3em;
     letter-spacing: 0.06vmin;
   }
