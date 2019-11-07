@@ -770,7 +770,6 @@ body {
   
   .casual_left {
     padding-top: 31vmin;
-    padding-left: 8vmin;
   }
   
   .casual_right {
@@ -835,7 +834,7 @@ body {
   
   .casual_collection {
     font-size: 3.7vmin;
-    margin-left: 9vmin;
+    margin-left: 10vmin;
     letter-spacing: 0.20vmin;
   }
   
