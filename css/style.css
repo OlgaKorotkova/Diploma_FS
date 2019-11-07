@@ -768,6 +768,15 @@ body {
     min-height: 124vmin;
   }
   
+  .casual_left {
+    padding-top: 31vmin;
+    padding-left: 8vmin;
+  }
+  
+  .casual_right {
+    padding-top: 10vmin;
+  }
+  
   .casual_header {
     font-size: 12vmin;
     margin-top: 5vmin;
@@ -791,7 +800,7 @@ body {
   }
   
   .hat_casual {
-    margin-top: 42vmin;
+    margin-top: 19vmin;
   }
   
   .hat_special {
