@@ -585,24 +585,21 @@ body {
   .square_casual {
     height: 51vmin;
     width: 32vmin;
-    left: 66vmin;
-    top: 5vmin;
   }
   
   .square_special {
     height: 51vmin;
     width: 32vmin;
-    left: 7vmin;
-    top: -10vmin;
   }
   
   .casual_left {
     padding-left: 17vmin;
-    padding-top: 22vmin;
+    padding-top: 32vmin;
   }
   
   .casual_right {
     padding-top: 17vmin;
+    padding-left: 17vmin;
   }
   
   .hat_casual {
