@@ -777,6 +777,10 @@ body {
     padding-top: 10vmin;
   }
   
+  .special_right {
+    padding-top: 27vmin;
+  }
+  
   .casual_header {
     font-size: 12vmin;
     margin-top: 5vmin;
@@ -804,7 +808,7 @@ body {
   }
   
   .hat_special {
-    margin-top: 25vmin;
+    margin-top: 15vmin;
   }
   
   .order_casual {
