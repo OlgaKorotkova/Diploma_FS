@@ -562,13 +562,11 @@ body {
   .casual {
     width: 100%;
     max-width: 1024px;
-    padding: 5vmin;
   }
   
   .special {
     width: 100%;
     max-width: 1024px;
-    padding: 5vmin;
   }
   
   .casual_header {
@@ -599,6 +597,14 @@ body {
   
   .casual_right {
     padding-top: 10vmin;
+  }
+  
+  .special_left {
+    padding-top: 17vmin;
+  }
+  
+  .special_right {
+    padding-top: 25vmin;
   }
   
   .hat_casual {
