@@ -792,8 +792,7 @@ body {
   
   .special_header {
     font-size: 12vmin;
-    margin-top: 5vmin;
-    margin-left: 3vmin;
+    margin-left: 4vmin;
   }
   
   .square_casual {
@@ -827,10 +826,11 @@ body {
   .order_special {
     width: 36vmin;
     height: 16vmin;
-    margin-left: 11vmin;
+    margin-left: 4vmin;
     box-shadow: 0 0 7px 2px #262525;
     font-size: 4.5vmin;
     letter-spacing: 0.1vmin;
+    margin-top: 1vmin;
 }
   
   .casual_collection {
