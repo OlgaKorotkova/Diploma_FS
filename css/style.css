@@ -1114,8 +1114,6 @@ body {
   .logo_footer {
     width: 3%;
     height: 4%;
-    padding-bottom: 2%;
-    padding-top: 48%;
   }
 
   .footer {
@@ -1123,33 +1121,32 @@ body {
     background-size: cover;
     width: 100%;
     max-width: 320px;
+    padding-top: 17vmin;
   }
   
   .footer::after {
     background-image: url("../img/hat%20footer_320.png"); 
   }
   
+  .footer_form_background {
+    margin-bottom: 25vmin;
+  }
+  
   .footer_form_background .name {
     font-size: 1.25vmin;
-    width: 25vmin;
+    width: 33%;
     line-height: 3em;
-    top: 21vmin;
-    left: 10vmin;
   }
   
   .footer_form_background .email {
     font-size: 1.25vmin;
-    width: 25vmin;
+    width: 33%;
     line-height: 3em;
-    top: 21vmin;
-    left: 36vmin;
   }
   
   .footer_form_background .footer_button {
     font-size: 1.25vmin;
-    left: 63vmin;
-    top: 21vmin;
-    width: 25vmin;
+    width: 33%;
     line-height: 3em;
     letter-spacing: 0.06vmin;
   }
